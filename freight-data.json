@@ -1,11 +1,62 @@
 ﻿[
   {
     "id": "fw_001",
-    "title": "示例：头程运费变动话题",
-    "date": "2026-04-23",
-    "route": "中国-美国",
-    "summary": "在此填写运费变动内容。",
-    "source": "来源",
-    "links": [{"label": "参考链接", "url": "https://example.com"}]
+    "title": "2026年4月中国至欧洲基本港海运费降至$1,547/TEU，环比下降6.2%",
+    "date": "2026-04-10",
+    "route": "中国→欧洲",
+    "mode": "海运FCL",
+    "summary": "2026年4月，中国至欧洲基本港整箱海运费（FCL）降至$1,547/TEU，环比下降6.2%。地中海基本港运价$2,590/TEU，环比下降3.5%。运价持续走低，主要受需求疲软和运力过剩影响。",
+    "source": "YQN / Freightos",
+    "links": [{"label": "YQN运价报告", "url": "https://www.yqn.com/use-cases/post/fcl_shipping_rates_from_china"}]
+  },
+  {
+    "id": "fw_002",
+    "title": "中国至美国海运DDP综合费率$1.80-$3.20/kg，处于2023年以来低位",
+    "date": "2026-04-08",
+    "route": "中国→美国",
+    "mode": "海运DDP",
+    "summary": "中国至美国FBA海运DDP综合费率（含关税、清关、尾程）约$1.80-$3.20/kg，LCL拼箱约$110-$180/CBM。当前运价处于2023年中以来最低水平。20尺整柜至美西约$2,000/TEU，折合约$0.35/kg。",
+    "source": "Unicargo",
+    "links": [{"label": "Unicargo FBA运费报告", "url": "https://www.unicargo.com/blog-amazon-fba-shipping-costs-2026-china-to-usa/"}]
+  },
+  {
+    "id": "fw_003",
+    "title": "Freightos跨大西洋运价单周飙升50%，从$1,400/FEU涨至$2,100/FEU",
+    "date": "2026-04-11",
+    "route": "跨大西洋",
+    "mode": "海运FCL",
+    "summary": "Freightos Baltic Index显示跨大西洋航线运价单周飙升50%，从$1,400/FEU涨至超过$2,100/FEU。该波动主要受美国关税政策不确定性导致的抢运效应影响。",
+    "source": "Freightos / MHL News",
+    "links": [{"label": "Freightos运价指数", "url": "https://www.freightos.com/index"}, {"label": "MHL News报道", "url": "https://www.mhlnews.com/transportation-distribution/news/55370683/international-transportation-update-freightos"}]
+  },
+  {
+    "id": "fw_004",
+    "title": "中美跨太平洋航线运价持续下行，关税明确后抢运需求减弱",
+    "date": "2026-04-09",
+    "route": "中国→美国",
+    "mode": "海运FCL",
+    "summary": "关税政策逐步明确后，此前的抢运需求大幅减弱，中美跨太平洋航线运价持续承压。航运咨询机构Linerlytica指出，MSC等船公司已开始撤减部分航线运力以应对需求下降。",
+    "source": "Sourcing Journal / Linerlytica",
+    "links": [{"label": "Sourcing Journal报道", "url": "https://sourcingjournal.com/topics/logistics/container-shipping-trans-pacific-ocean-freight-rates-capacity-msc-withdraw-service-drewry-scfi-linerlytrica-1234755283/"}]
+  },
+  {
+    "id": "fw_005",
+    "title": "2026年4月中国出口各运输方式费率一览：空运$3.5-9/kg，海运FCL $800-3,500/柜",
+    "date": "2026-04-05",
+    "route": "中国→全球",
+    "mode": "综合",
+    "summary": "当前中国出口主要运输方式费率：空运$3.5-9.0/kg（5-10天）；海运LCL $35-85/CBM（25-40天）；海运FCL $800-3,500/柜（18-35天）；中欧铁路$0.09-0.18/kg（14-22天）。空运费率相对稳定，海运处于低位。",
+    "source": "Presou",
+    "links": [{"label": "Presou运费指南", "url": "https://presou.com/shipping-cost-per-kg-from-china-2026-guide/"}]
+  },
+  {
+    "id": "fw_006",
+    "title": "中国至美国海运时效：美西18-25天，美东30-40天",
+    "date": "2026-04-01",
+    "route": "中国→美国",
+    "mode": "海运FCL",
+    "summary": "中国至美国海运时效：西海岸（洛杉矶/长滩）18-25天，东海岸（纽约/萨凡纳）30-40天。DDP空运6-12天，费率$4-10/kg；快递3-7天，费率$6-15/kg。海运仍是FBA头程主流选择。",
+    "source": "SeaRates / DFH Logistics",
+    "links": [{"label": "SeaRates指南", "url": "https://www.searates.com/blog/post/shipping-from-china-to-usa-sea-freight-guide-2026"}, {"label": "DFH Logistics", "url": "https://dfhlogistics.com/shipping-rates-from-china-to-usa/"}]
   }
 ]
