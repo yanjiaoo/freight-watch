@@ -1,0 +1,11 @@
+﻿[
+  {
+    "id": "fw_001",
+    "title": "示例：头程运费变动话题",
+    "date": "2026-04-23",
+    "route": "中国-美国",
+    "summary": "在此填写运费变动内容。",
+    "source": "来源",
+    "links": [{"label": "参考链接", "url": "https://example.com"}]
+  }
+]
