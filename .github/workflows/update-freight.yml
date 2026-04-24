@@ -1,32 +1,39 @@
-﻿name: 周度更新运费数据
+﻿name: 运费数据自动更新
 
 on:
   schedule:
-    # 每周一 UTC 9:00（北京时间17:00）运行
+    # 每周一 UTC 9:00 更新运费动态
     - cron: '0 9 * * 1'
+    # 每月1号 UTC 10:00 更新图表数据
+    - cron: '0 10 1 * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  fetch-freight:
+  update-freight:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: 抓取最新运费数据
+
+      - name: 抓取最新运费动态
         run: python fetch-freight.py
+
+      - name: 更新图表月度数据
+        run: python update-chart.py
+
       - name: Commit and Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add freight-data.json
+          git add freight-data.json freight-chart-data.json
           if git diff --staged --quiet; then
             echo "No changes"
           else
-            git commit -m "auto: 周度更新运费动态 $(date +%Y-%m-%d)"
+            git commit -m "auto: 更新运费数据 $(date +%Y-%m-%d)"
             git push
           fi
