@@ -1,42 +1,122 @@
-﻿[
+[
   {
-    "id": "fw_fbx_weekly",
-    "title": "Freightos周报：中国至美西运价升至$2,400/FEU，伊朗局势推高燃油附加费",
-    "date": "2026-04-18",
-    "route": "中国→美西",
-    "mode": "FBX指数",
-    "summary": "FBX01（中国至美西）周度运价升至$2,400/FEU，较战前上涨近40%。FBX03（中国至美东）$3,100/FEU。FBX11（中国至北欧）$2,870/FEU。船公司已宣布紧急燃油附加费$200-500/FEU，多条航线4月初GRI生效。空运方面，中国至美国$7.43/kg（+9%），中国至欧洲$5.00/kg（+23%）。",
-    "source": "Freightos Baltic Index / AJOT",
-    "links": [{"label": "AJOT Freightos周报（2026年4月）", "url": "https://www.ajot.com/news/freightos-weekly-update-air-rates-climbing-again-as-fuel-costs-rise"}, {"label": "Freightos FBX指数", "url": "https://www.freightos.com/index"}]
+    "id": "fw_auto_001",
+    "title": "Freightos Weekly Update: Asia -Europe ocean rates slide despite Hormuz pressure",
+    "date": "2026-04-22",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Freightos Weekly Update: Asia -Europe ocean rates slide despite Hormuz pressure  Container News",
+    "source": "Container News",
+    "links": [
+      {
+        "label": "Container News",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNXo2TVNSVjNESFdxSVU1Uk5qZWpYS2FTck9UNko1bGJzNUpkUGxRWThmdHVNQUs1bmY0Mm9zRTljZ1NUX1hOWlZpYmJWYlR5X1JKSXhpWHFPT09GRF8zeHAxeExEdzROUzQwemlaOXRETmhabVBWTEdFTnNfRWhMUzctNjFSakI4cTRXbmZPMGFMb05iMFl6TDlxSWxoNzJ4YkViNjhuSE4?oc=5"
+      }
+    ]
   },
   {
-    "id": "fw_war_impact",
-    "title": "霍尔木兹海峡通行受限已近6周，集装箱运价全面承压上行",
-    "date": "2026-04-18",
-    "route": "全球",
-    "mode": "行业分析",
-    "summary": "伊朗关闭霍尔木兹海峡已近6周，每日仅允许少量船舶通行。海湾地区运价飙升（上海至杰贝阿里超$7,000/FEU），替代路线面临严重拥堵。新加坡燃油库存仅剩一个月。船公司可能开始降速或取消航次以节省燃油，进一步推高运价。",
-    "source": "Container News / Freightos",
-    "links": [{"label": "Container News分析", "url": "https://container-news.com/freightos-weekly-update-freight-rates-elevated-but-mostly-level-as-war-stretches-on/"}]
+    "id": "fw_auto_002",
+    "title": "Drewry WCI snaps 6-week rally due to ease in freight charge",
+    "date": "2026-04-17",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Drewry WCI snaps 6-week rally due to ease in freight charge  Fibre2Fashion",
+    "source": "Fibre2Fashion",
+    "links": [
+      {
+        "label": "Fibre2Fashion",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeUduSEZFS0dLWHZmQ2pzZFFGWWRNWXBta1JQZExhSzg2TDE5emdsQVR0WDRNTjJhWG1oZVpVNUFVUmMzNWExWVgzemxqd3VhSTJyOWJzY0hIYVpUYU9OZFVrcmN1UVlPbUV3cm9yM2tLSjVpZndKSG9YdV92Y3lSWlhCY1FQMlpoZHQyb3cwZFVuYm9maUo5Qk1kc1ltVzZhOGxhTUgwS1JPR2ZTdFdrT2l4QTROTjl3R0t0NHBteHl5TGlmUlBBNl9B?oc=5"
+      }
+    ]
   },
   {
-    "id": "fw_fba_cost",
-    "title": "中国至美国FBA海运DDP综合费率$1.80-$3.20/kg，处于历史低位但面临上行压力",
-    "date": "2026-03-08",
-    "route": "中国→美国",
-    "mode": "FBA头程",
-    "summary": "中国至美国FBA海运DDP综合费率（含关税、清关、尾程）约$1.80-$3.20/kg，LCL拼箱约$110-$180/CBM。当前处于2023年中以来最低水平，但霍尔木兹海峡局势和燃油成本上升可能推动费率回升。",
-    "source": "Unicargo",
-    "links": [{"label": "Unicargo FBA运费报告（2026年3月）", "url": "https://www.unicargo.com/blog-amazon-fba-shipping-costs-2026-china-to-usa/"}]
+    "id": "fw_auto_003",
+    "title": "Transatlantic ocean rates spike as surcharges take effect – April 14, 2026 Update",
+    "date": "2026-04-15",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Transatlantic ocean rates spike as surcharges take effect – April 14, 2026 Update  Freightos",
+    "source": "Freightos",
+    "links": [
+      {
+        "label": "Freightos",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNYnBCbzZTQ1h4V1ZIRF9tNThKLWZVel9mYWdOVE5vUHZhMkl5MXNLSWRlUUY0VWwxTGVIM1hPMmp1TFZWWk5VcnRwLS1fbkNFMjFDMS1DS09yNmFvTUxEdUZqZUloazFZSTlqV1FvVzBTTjVIU0NZRlhQUkViLWpvN3JoTU1KZTVjS3ZlTFEwU0phM1l6NUF4X2hjWWV3M1lZTFpjRGdPOWJfYmhYMFVhcGNUaWFUTWNhcHVPeHZXTmNwQW5VQ0VpeG5EWjBTc1lZMDQ0MGRwRkdlTlc4VUNoSkZFdGhMeDhY?oc=5"
+      }
+    ]
   },
   {
-    "id": "fw_fcl_rates",
-    "title": "2026年4月中国出口FCL运价一览：美西$2,400、美东$3,100、北欧$2,870/FEU",
-    "date": "2026-04-18",
-    "route": "中国→全球",
-    "mode": "FBX指数",
-    "summary": "Freightos Baltic Index 2026年4月第3周数据：FBX01中国至美西$2,400/FEU（+3%），FBX03中国至美东$3,100/FEU（+4%），FBX11中国至北欧$2,870/FEU（持平），FBX13中国至地中海$4,264/FEU（持平）。",
-    "source": "Freightos Baltic Index",
-    "links": [{"label": "Freightos FBX指数", "url": "https://www.freightos.com/index"}]
+    "id": "fw_auto_004",
+    "title": "Container shipping rates rise as fuel costs and capacity pressures build",
+    "date": "2026-04-10",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Container shipping rates rise as fuel costs and capacity pressures build  InteriorDaily",
+    "source": "InteriorDaily",
+    "links": [
+      {
+        "label": "InteriorDaily",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNM3lvOHlxYW0zRkVjaVdUMndkSldybGZwZHBFN1J1bTV1SjBUa0MtY0lMS3BuVE1aNTR6R1RsZzdZT1dSaWJib1BvRHN3MF9Xem5XOWVyWl9wMHZtVmRfOVRXSnNVUHdHY0E5VEIxTXpDZ3hVbEl1SloyU3NlVWQ5b2R2bjhlYnN6cmFBY2VtNEdBcGEwOVlYOFlVN1plRlBoUm1HdnNFdS11QTJwQ3hRamhSZ2pRZ3RCRTBn?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_005",
+    "title": "Freightos Weekly Update: Freight rates elevated, but mostly level, as war stretches on",
+    "date": "2026-04-08",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Freightos Weekly Update: Freight rates elevated, but mostly level, as war stretches on  Container News",
+    "source": "Container News",
+    "links": [
+      {
+        "label": "Container News",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMWp5eVhtVmxMQW1lYnRhVXZMYm54YWFyQmlEWklKdGhEYmFrenlHYk1lSWxNUHZQZlFIbnBCOWhxV00zVXJ5S3FUQjJQVEo0d2ZVb2FCMzJoRWMxM1FKUnU5TlZtVVpwbVJJNHRYX1NUWUsyVjc4NzN5TjJLUFQ0RTAxVTZwZ1FCRkNOMlRScVd2S3dQbXFxVHdfQmotTUhyVU1mbW90R3E0UFpMWWdtYQ?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_006",
+    "title": "Container Rates Extend Rally as Hormuz Crisis Drives Fuel Costs Higher",
+    "date": "2026-03-26",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Container Rates Extend Rally as Hormuz Crisis Drives Fuel Costs Higher  gCaptain",
+    "source": "gCaptain",
+    "links": [
+      {
+        "label": "gCaptain",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQzhzUkF3OC16WUVPNHFsLS1pOWxnN3lqSkRDb1lVVGJuU2ZoTXphREIyam50aEZ2QnpOb0J4RVVMY0FTekt0UFZBZ0o2VjF5OVgwVXRSdmt2SEhaVG5vZlRFLUlXNGNNWTJLZEZ3dTdaMmZPVGVSZktheTRMWmtuRkx2N182ZEFtTEtNUVNnbk55Z3dnd0I0?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_007",
+    "title": "Ocean braces for wave of Iran-war surcharges – March 17, 2026 Update",
+    "date": "2026-03-17",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Ocean braces for wave of Iran-war surcharges – March 17, 2026 Update  Freightos",
+    "source": "Freightos",
+    "links": [
+      {
+        "label": "Freightos",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRjZmZEVpTGx6NC14RHFBX1g4S2haZlVRbkNkWWQ3ekxJV3FDMzk2WGtNYUFjWi1QTy00US1OWUh6N3k0bzhZTENXUEhVWXRqR2ptX0dzMUFYVkdGWEhxNl9sMDVmNHFxSGVVMUV1dUs2VFlQRmtDSHBoQkY5ZVZfNjU2d1h5akJ5azlVal9nMjhUaW9aajlsRjhYalU3Mnd0S2F6SVBIemVXS3dTNjhQUWttOEd4UU4yNzZ4bEtKVXZLN05GQ0lTQUFfQk1HMnVnaWRSYVEtRQ?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_008",
+    "title": "Air rates continue to climb on Mid-East closures – March 10, 2026 Update",
+    "date": "2026-03-10",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Air rates continue to climb on Mid-East closures – March 10, 2026 Update  Freightos",
+    "source": "Freightos",
+    "links": [
+      {
+        "label": "Freightos",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQnl5cTdIdEpMRE82Z0JPb2oybHlkOFZWWGNGWEtJeDZmMGdYNnp1MWxsZE11Mmd3djFwbktpT3ozZXA2ZEdMT3ZWN3F6aU5nSVFKUjlVOFpfdUlVWlEzSko0cHFxVGhWeFFnMzdPZEx5aE9vdjhyeXZfdUJ5aDN5Sm42M1VzbDA4T3dpWnlMR29vSVJWQlBqM2xtZmZIMS12MTFhT1paWXBWeHNWRTVBWjZGbGZVS0RNLUtyZHNQeDc5YndwNVBqb1R4d1VzQWNuVjFqS1EwN2VHbVJS?oc=5"
+      }
+    ]
   }
 ]
