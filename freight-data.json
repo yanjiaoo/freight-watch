@@ -1,6 +1,51 @@
 [
   {
     "id": "fw_auto_001",
+    "title": "Drewry, Freightos Data Show Container Rates Surge 9% as Early Peak Season Tightens Global Capacity",
+    "date": "2026-07-03",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Drewry, Freightos Data Show Container Rates Surge 9% as Early Peak Season Tightens Global Capacity  Breakbulk.News",
+    "source": "Breakbulk.News",
+    "links": [
+      {
+        "label": "Breakbulk.News",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeExkZVBDMlZqOVZPZmp2Z3gtZWR5SmNHQTNzRm1TbnR2US1yZkx1Uk9kdzdPTkkxZ1NmTkJmM2stNE5WU192MnhpaFNfS0l6VkZ2akJQRllJM21sckVKb2dKM2gwMVg3M1hvUVJmZ2Z5VEJOMV93d29lLXNnMlNtUXVtUjZQNUIzU0VBYjJmXzVHZkllcUJjdmtjcGVDNzg4eEctLXlsZjNvVW5tMnlOQTFzdUlfaGdQOWZBaw?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_002",
+    "title": "Freight Market Trends: Ocean Freight Intelligence Updates",
+    "date": "2026-07-02",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Freight Market Trends: Ocean Freight Intelligence Updates  Freightos",
+    "source": "Freightos",
+    "links": [
+      {
+        "label": "Freightos",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOejVWdVJlV2NERnJzX1h3YzM5RzduU3hfNTVWYWpSUlEtUXMzZ05waWthaWhMOTZTcWd0RTlSSnN0QlVFRzJ6dFBEMGhMSTRpZlRnbkFiYW5fTnNGZU9OVXA0VDBDbEVPWGtYclVZZ3JjYm10cDJMOFFZNUZXWHVyNlVwMzNFQ3NQOUFZamxSTWNybmZXQmQ5VF9nMWk4WlVCRk52WVEtRXNqYXNwTUlRNFJTc0c5UQ?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_003",
+    "title": "Freightos Weekly Update: Ocean rates steady as shippers brace for July hikes",
+    "date": "2026-07-01",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Freightos Weekly Update: Ocean rates steady as shippers brace for July hikes  Container News",
+    "source": "Container News",
+    "links": [
+      {
+        "label": "Container News",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVWc1WE5RbU1JeDMtemtZZGRyaXRfblpsVDczdS1Ed0IwelIxaWNDLWotNUdJcklPSVYwbE5FNWtJc1NXbWV1VEZKOW9vWFdNUHRNVzN4M2xKNnVnejhYc29EbDF0WDNIS1hFSmZDeEowcFkxY2hXQ1h5Y3lNVWp0VmpQMUxlWXBoNGpDRERzRmxjUTZFNjZxWHNuX3JiYWh5QnZyU3hn?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_004",
     "title": "Ocean rates steady as shippers brace for July hikes – June 30, 2026 Update",
     "date": "2026-06-30",
     "route": "",
@@ -15,22 +60,7 @@
     ]
   },
   {
-    "id": "fw_auto_002",
-    "title": "Drewry WCI rises to 18-month high on increased demand, freight rates",
-    "date": "2026-06-19",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "Drewry WCI rises to 18-month high on increased demand, freight rates  Fibre2Fashion",
-    "source": "Fibre2Fashion",
-    "links": [
-      {
-        "label": "Fibre2Fashion",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUXVOdEZYNmlLNzZqWWVPX3YwUTM4MnEySkJ5WDc3Qko1bmpEV1BlRGIzeWZTQlVJalE4bXdVbEU3N1J2TEY0Y2FiUHZBUGh1WmZtekRRLVBFdFQyQUhORHFnR0xDd1p5NndoeTZ6X3Q0b0VjMjk2RG5uNDNMUjJtLUFSVEQ5TklsYzZrcWh3c3R1MkIzNGxQZDZ5X01MdnRvbUZCY2hHRFN6NDFQTjNUdXd1Q01lMk8tRWNKUmw4UjBKUGtka0tnb0FpX0tpcXk1dDRVTQ?oc=5"
-      }
-    ]
-  },
-  {
-    "id": "fw_auto_003",
+    "id": "fw_auto_005",
     "title": "Ocean rates climbing, with more increases expected soon – June 9, 2026 Update",
     "date": "2026-06-12",
     "route": "",
@@ -45,7 +75,7 @@
     ]
   },
   {
-    "id": "fw_auto_004",
+    "id": "fw_auto_006",
     "title": "Drewry WCI jumps 23% as early peak season drives freight rates higher",
     "date": "2026-06-07",
     "route": "",
@@ -60,22 +90,7 @@
     ]
   },
   {
-    "id": "fw_auto_005",
-    "title": "Container Freight Rates Surge 23% in Early Peak Season – Drewry WCI Update June 2026 - News and Statistics",
-    "date": "2026-06-07",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "Container Freight Rates Surge 23% in Early Peak Season – Drewry WCI Update June 2026 - News and Statistics  IndexBox",
-    "source": "IndexBox",
-    "links": [
-      {
-        "label": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNamVXeldCR2RzT1M1NE1GUFlIQWZPR3pMa2FfbWFSVDBzUFF2MlZtNWdrWV9SWWhCMjFMX3o2bWI5d19Ha1VhOGRNYU1KYmlmd2hxTko3bHF1WXFBbTgxSzQtclVERS0zUXZnSVZsYTZNanBaVjJuZ0FtaEs2X2VHX0g3RHpGSVk1dmpvQkl3emVRbkVuUFhxYWxXVVItZHdMT3QxMko1aHU0XzAxMFQ2T1QtR0JWWWFTSGc?oc=5"
-      }
-    ]
-  },
-  {
-    "id": "fw_auto_006",
+    "id": "fw_auto_007",
     "title": "Container peak season arrives early as freight rates skyrocket",
     "date": "2026-06-04",
     "route": "",
@@ -90,32 +105,17 @@
     ]
   },
   {
-    "id": "fw_auto_007",
-    "title": "Container rates starting to spike on peak season rush – June 2, 2026 Update",
-    "date": "2026-06-02",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "Container rates starting to spike on peak season rush – June 2, 2026 Update  Freightos",
-    "source": "Freightos",
-    "links": [
-      {
-        "label": "Freightos",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOaXpHZmk3aUdCdjJYWUs2Rl90OEpJby1uQ25QNmEzOVc3aUd6dXJFY0R3Y1M2TE12YS1TcU14ODdzTW0zRnk2UUpEcm00NnMwZUZ2aFZfLXMwT0pYTXc1czBUb1p4SXpVdUxGdTcwSUlDb3J1cXlad01uRExkaEpnVDVKZXVQN0hzM3lLOTVDc253UVZ4NU5fWXNiVWpGUFVKc0JXQ0huc2JDU3Fzelp2R0lKcVNmRXZxSUs0bEdieTFjM3YyTDZ2MHR3dm03RUNEZFpQaTlueFpVbmtOenVIZQ?oc=5"
-      }
-    ]
-  },
-  {
     "id": "fw_auto_008",
-    "title": "Drewry: Container Spot Rates Continue Climb as Early Peak Season Gains Momentum",
-    "date": "2026-05-21",
+    "title": "Hormuz crisis side effect: a sharp rise in container shipping rates",
+    "date": "2026-05-29",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "Drewry: Container Spot Rates Continue Climb as Early Peak Season Gains Momentum  gCaptain",
-    "source": "gCaptain",
+    "summary": "Hormuz crisis side effect: a sharp rise in container shipping rates  Lloyd's List",
+    "source": "Lloyd's List",
     "links": [
       {
-        "label": "gCaptain",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSnphengwaUpNcHhzUm9ITmpObHNIRHFCVjd4dkIzLXdNWWthR2wxLVdJWkk3N25JWElYMHFHb095WEd4R2JwQ25UemFMc2VzYWRNeUlpWlpEM3I5Q0xybE5DTGl1NkNPbnhGakpud21JUHJFbEZUbGoxWDMydS1HWEZuNWZZanVVVVpsUVd3Nm1OZFE1c292eTZ1RWdacXY5Y1E?oc=5"
+        "label": "Lloyd's List",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU1RIb2hueS14VmctdHo2VzloNTFzaEIyR0ZpRENCNlZ0M0Y5RFRoeGdRMklGMXFLYjJ2WlYyVlhqTDNJcENxZG1rT0F6ZEo1djR1bHBWcUlaS0dlbFdIYW5CNk1yek5XTGhXM1puQV85SWcxSGVnYzRyWngybmtTZThHdUx0SGRTa2pyUk54TTFSXzBJS1VReHh1YzNabDRhamtVOVpn?oc=5"
       }
     ]
   }
