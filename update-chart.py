@@ -25,8 +25,9 @@
   当某个自然月结束后，用该月所有读数的算术平均写入图表，并记录用了哪些读数。
   monthlySources 里 locked=true 的月份不会被覆盖。
 
-无公开月度数据源、脚本不会填的字段：
-  中国→日本航线、中欧班列 rail_per_kg  → 保持 null，需人工维护
+已移除的字段（2026-08-04）：
+  中国→日本航线、中欧班列 rail_per_kg —— 无公开月度指数，原数值无法溯源，已删除。
+  原则：核实不了的数据不收录，宁缺勿假。
 """
 import json
 import re
@@ -286,10 +287,11 @@ def main():
     chart["lastUpdated"] = today
     chart["dataSource"] = ("海运 Freightos Baltic Index (FBX)：https://fbx.freightos.com/ ；"
                            "空运 Freightos Air Index：Freightos 官方周报 https://www.freightos.com/freight-resources/")
-    chart["note"] = ("海运为 FBX 即期运价($/FEU 40尺柜)，空运为 Freightos Air Index($/kg)。"
-                     "月度值为该月各期读数的算术平均，用了哪几期见 monthlySources。"
-                     "中国→日本航线与中欧班列 rail_per_kg 无公开月度数据源，需人工维护，"
-                     "缺失月份保持 null（图上表现为断线，不做插值）。")
+    chart["note"] = ("海运为 Freightos Baltic Index (FBX) 即期运价($/FEU 40尺柜)，"
+                     "空运为 Freightos Air Index($/kg)，原油为 EIA 官方月度现货均价($/桶)。"
+                     "所有数值均可溯源到原始发布方，月度值为该月各期读数的算术平均，"
+                     "用了哪几期见 monthlySources。无法核实的数据不予收录；"
+                     "缺读数的月份为 null，不插值、不推算。")
 
     with open("freight-chart-data.json", "w", encoding="utf-8") as f:
         json.dump(chart, f, ensure_ascii=False, indent=2)
