@@ -26,44 +26,44 @@
   "routes": {
     "中国→美西 (FBX01)": {
       "ocean_fcl_feu": [
-        5300,
-        5100,
-        4800,
-        3500,
-        6000,
-        5800,
-        3800,
-        2800,
-        2150,
-        2150,
-        1750,
-        2000,
-        1900,
-        1800,
-        1700,
-        2400,
+        5528,
+        4734,
+        2431,
+        2331,
+        2492,
+        4960,
+        2708,
+        2036,
+        2101,
+        1675,
+        2413,
+        2009,
+        2679,
+        2167,
+        null,
+        2653,
         2828,
         5950,
         6212
       ],
       "air_per_kg": [
-        5.5,
+        5.73,
+        5.03,
+        4.98,
+        5.55,
         5.3,
-        5.0,
-        4.8,
-        7.5,
-        7.0,
-        6.2,
-        5.5,
-        5.0,
+        5.27,
+        4.58,
+        3.61,
+        5.24,
         5.2,
-        5.0,
-        4.8,
-        5.1,
-        4.9,
-        5.6,
-        7.3,
-        6.8,
+        6.36,
+        7.17,
+        5.94,
+        7.03,
+        7.17,
+        5.88,
+        6.16,
         6.4,
         6.16
       ],
@@ -91,44 +91,44 @@
     },
     "中国→美东 (FBX03)": {
       "ocean_fcl_feu": [
-        6800,
-        6500,
-        6200,
-        4500,
-        7500,
-        7000,
-        5200,
-        3800,
-        3050,
-        3050,
-        2600,
-        2800,
-        2700,
-        2500,
-        2400,
-        3100,
+        6801,
+        6271,
+        3545,
+        3470,
+        3634,
+        6168,
+        4937,
+        3432,
+        3124,
+        3212,
+        3580,
+        3075,
+        3916,
+        3658,
+        null,
+        3810,
         4340,
         7700,
         9002
       ],
       "air_per_kg": [
-        6.8,
-        6.5,
-        6.2,
-        5.8,
-        8.5,
-        8.0,
-        7.2,
-        6.5,
-        6.0,
-        6.2,
-        5.8,
-        5.5,
-        5.8,
-        5.5,
-        6.0,
-        7.4,
-        7.0,
+        5.73,
+        5.03,
+        4.98,
+        5.55,
+        5.3,
+        5.27,
+        4.58,
+        3.61,
+        5.24,
+        5.2,
+        6.36,
+        7.17,
+        5.94,
+        7.03,
+        7.17,
+        5.88,
+        6.16,
         6.4,
         6.16
       ],
@@ -156,44 +156,44 @@
     },
     "中国→北欧 (FBX11)": {
       "ocean_fcl_feu": [
-        4200,
-        4000,
-        3800,
-        3200,
-        4500,
-        4200,
-        3600,
-        3000,
-        2500,
-        2800,
-        2300,
-        2200,
-        2100,
-        2000,
-        1900,
-        2900,
+        5004,
+        3261,
+        2790,
+        2388,
+        2367,
+        2785,
+        3371,
+        3276,
+        2556,
+        1978,
+        2428,
+        2566,
+        2949,
+        2664,
+        null,
+        2743,
         2500,
         4800,
         5575
       ],
       "air_per_kg": [
-        4.5,
-        4.3,
-        4.0,
-        3.8,
-        5.5,
+        3.35,
+        3.19,
+        3.59,
+        3.75,
+        3.56,
+        3.69,
+        3.44,
+        3.61,
+        3.66,
+        3.98,
+        4.02,
+        3.7,
+        3.57,
+        3.38,
         5.0,
-        4.5,
-        4.0,
-        3.5,
-        3.8,
-        3.5,
-        3.3,
-        3.5,
-        3.3,
-        4.0,
-        5.0,
-        5.8,
+        5.1,
+        null,
         4.59,
         4.03
       ],
@@ -362,6 +362,350 @@
           "date": "2026-07-29",
           "url": "https://www.freightos.com/freight-resources/freight-rate-update-for-july-29th-july-29-2026-update/",
           "quote": "FBX01 $6,212/FEU; FBX03 $9,002/FEU; FBX11 $5,575/FEU; China-N.America $5.76/kg; China-N.Europe $3.84/kg"
+        }
+      ]
+    },
+    "2025-01": {
+      "method": "4 期 Freightos 周报算术平均（回溯核实）",
+      "reports": [
+        {
+          "date": "2025-01-07",
+          "url": "https://www.freightos.com/freight-resources/january-7-2025-update/"
+        },
+        {
+          "date": "2025-01-14",
+          "url": "https://www.freightos.com/freight-resources/january-14-2025-update/"
+        },
+        {
+          "date": "2025-01-21",
+          "url": "https://www.freightos.com/freight-resources/january-21-2025-update/"
+        },
+        {
+          "date": "2025-01-28",
+          "url": "https://www.freightos.com/freight-resources/january-28-2025-update/"
+        }
+      ]
+    },
+    "2025-02": {
+      "method": "3 期 Freightos 周报算术平均（回溯核实）",
+      "reports": [
+        {
+          "date": "2025-02-04",
+          "url": "https://www.freightos.com/freight-resources/february-4-2025-update/"
+        },
+        {
+          "date": "2025-02-18",
+          "url": "https://www.freightos.com/freight-resources/february-18-2025-update/"
+        },
+        {
+          "date": "2025-02-25",
+          "url": "https://www.freightos.com/freight-resources/february-25-2025-update/"
+        }
+      ]
+    },
+    "2025-03": {
+      "method": "3 期 Freightos 周报算术平均（回溯核实）",
+      "reports": [
+        {
+          "date": "2025-03-11",
+          "url": "https://www.freightos.com/freight-resources/march-11-2025-update/"
+        },
+        {
+          "date": "2025-03-20",
+          "url": "https://www.freightos.com/freight-resources/march-20-2025-update/"
+        },
+        {
+          "date": "2025-03-25",
+          "url": "https://www.freightos.com/freight-resources/march-25-2025-update/"
+        }
+      ]
+    },
+    "2025-04": {
+      "method": "4 期 Freightos 周报算术平均（回溯核实）",
+      "reports": [
+        {
+          "date": "2025-04-01",
+          "url": "https://www.freightos.com/freight-resources/april-1-2025-update/"
+        },
+        {
+          "date": "2025-04-16",
+          "url": "https://www.freightos.com/freight-resources/april-16-2025-update/"
+        },
+        {
+          "date": "2025-04-23",
+          "url": "https://www.freightos.com/freight-resources/carriers-accelerate-blankings-as-china-us-bookings-drop-april-23-2025-update/"
+        },
+        {
+          "date": "2025-04-29",
+          "url": "https://www.freightos.com/freight-resources/china-volumes-fall-as-demand-climbs-from-s-east-asia-april-29-2025-update/"
+        }
+      ]
+    },
+    "2025-05": {
+      "method": "4 期 Freightos 周报算术平均（回溯核实）",
+      "reports": [
+        {
+          "date": "2025-05-07",
+          "url": "https://www.freightos.com/freight-resources/blanks-keep-rates-level-no-de-minimis-air-rate-collapse-yet-us-houthi-truce-first-step-to-red-sea-return-may-7-2025-update/"
+        },
+        {
+          "date": "2025-05-13",
+          "url": "https://www.freightos.com/freight-resources/china-us-deescalation-may-spur-early-peak-season-may-13-2025-update/"
+        },
+        {
+          "date": "2025-05-20",
+          "url": "https://www.freightos.com/freight-resources/transpac-ocean-rates-climbing-on-china-us-rebound-may-20-2025-update/"
+        },
+        {
+          "date": "2025-05-27",
+          "url": "https://www.freightos.com/freight-resources/transpac-ocean-volumes-surge-during-tariff-pause-us-eu-tensions-rising-may-27-2025-update/"
+        }
+      ]
+    },
+    "2025-06": {
+      "method": "4 期 Freightos 周报算术平均（回溯核实）",
+      "reports": [
+        {
+          "date": "2025-06-03",
+          "url": "https://www.freightos.com/freight-resources/transpac-container-rates-starting-to-spike-on-demand-surge-june-3-2025-update/"
+        },
+        {
+          "date": "2025-06-10",
+          "url": "https://www.freightos.com/freight-resources/container-rates-surging-as-shippers-rush-ahead-of-deadlines-june-10-2025-update/"
+        },
+        {
+          "date": "2025-06-17",
+          "url": "https://www.freightos.com/freight-resources/iran-israel-not-impacting-freight-june-17-2025-update/"
+        },
+        {
+          "date": "2025-06-24",
+          "url": "https://www.freightos.com/freight-resources/transpac-rates-falling-sharply-israel-iran-ceasefire-could-avert-freight-disruptions-june-24-2025-update/"
+        }
+      ]
+    },
+    "2025-07": {
+      "method": "6 期 Freightos 周报算术平均（回溯核实）",
+      "reports": [
+        {
+          "date": "2025-07-01",
+          "url": "https://www.freightos.com/freight-resources/transpac-rates-slide-on-early-end-to-peak-surge-july-01-2025-update/"
+        },
+        {
+          "date": "2025-07-08",
+          "url": "https://www.freightos.com/freight-resources/transpacific-ocean-rates-continue-to-slide-air-cargo-out-of-the-middle-east-still-recovering-july-08-2025-update/"
+        },
+        {
+          "date": "2025-07-16",
+          "url": "https://www.freightos.com/freight-resources/tariffs-peak-season-lulls-and-more-july-16-2025-update/"
+        },
+        {
+          "date": "2025-07-22",
+          "url": "https://www.freightos.com/freight-resources/transpac-post-peak-ocean-cools-and-no-signs-of-air-cargo-bump-ahead-of-august-tariff-expirations-july-22-2025-update/"
+        },
+        {
+          "date": "2025-07-24",
+          "url": "https://www.freightos.com/freight-resources/2025-peak-season-smb-importers/"
+        },
+        {
+          "date": "2025-07-29",
+          "url": "https://www.freightos.com/freight-resources/trade-deals-bring-welcome-stability-though-probably-minimal-freight-shake-up-for-now-july-29-2025-update/"
+        }
+      ]
+    },
+    "2025-08": {
+      "method": "4 期 Freightos 周报算术平均（回溯核实）",
+      "reports": [
+        {
+          "date": "2025-08-05",
+          "url": "https://www.freightos.com/freight-resources/little-ocean-or-air-freight-shake-up-ahead-of-august-7th-so-far-august-05-2025-update/"
+        },
+        {
+          "date": "2025-08-14",
+          "url": "https://www.freightos.com/freight-resources/transpac-ocean-rates-still-easing-despite-us-china-tariff-extension-august-14-2025-update/"
+        },
+        {
+          "date": "2025-08-20",
+          "url": "https://www.freightos.com/freight-resources/transpac-container-rates-slide-back-to-pre-red-sea-levels-august-20-2025-update/"
+        },
+        {
+          "date": "2025-08-26",
+          "url": "https://www.freightos.com/freight-resources/ocean-rates-continue-to-decrease-as-order-book-grows-august-26-2025-update/"
+        }
+      ]
+    },
+    "2025-09": {
+      "method": "6 期 Freightos 周报算术平均（回溯核实）",
+      "reports": [
+        {
+          "date": "2025-09-02",
+          "url": "https://www.freightos.com/freight-resources/further-challenges-to-ieepa-tariffs-us-de-minimis-closed-as-air-capacity-shuffles-september-2-2025-update/"
+        },
+        {
+          "date": "2025-09-04",
+          "url": "https://www.freightos.com/freight-resources/container-shipping-cost-calculator-free-tool/"
+        },
+        {
+          "date": "2025-09-04",
+          "url": "https://www.freightos.com/freight-resources/shipping-delays-and-cost-increases/"
+        },
+        {
+          "date": "2025-09-10",
+          "url": "https://www.freightos.com/freight-resources/transpac-rates-tick-up-on-september-gris-september-10-2025-update/"
+        },
+        {
+          "date": "2025-09-16",
+          "url": "https://www.freightos.com/freight-resources/transpac-rates-cooling-again-carriers-prep-for-ustr-fees-september-16-2025-update/"
+        },
+        {
+          "date": "2025-09-25",
+          "url": "https://www.freightos.com/freight-resources/typhoon-disrupts-far-east-freight-ocean-rates-slide-september-25-2025-update/"
+        }
+      ]
+    },
+    "2025-10": {
+      "method": "4 期 Freightos 周报算术平均（回溯核实）",
+      "reports": [
+        {
+          "date": "2025-10-08",
+          "url": "https://www.freightos.com/freight-resources/ustr-port-fees-loom-as-ocean-demand-slumps-october-8-2025-update/"
+        },
+        {
+          "date": "2025-10-15",
+          "url": "https://www.freightos.com/freight-resources/china-us-trade-tensions-rising-and-new-tariff-threats-loom-october-15-2025-update/"
+        },
+        {
+          "date": "2025-10-22",
+          "url": "https://www.freightos.com/freight-resources/ex-asia-ocean-rates-climb-on-gris-despite-slowing-demand-october-22-2025-update/"
+        },
+        {
+          "date": "2025-10-28",
+          "url": "https://www.freightos.com/freight-resources/hope-growing-for-china-us-deescalation-october-28-2025-update/"
+        }
+      ]
+    },
+    "2025-11": {
+      "method": "4 期 Freightos 周报算术平均（回溯核实）",
+      "reports": [
+        {
+          "date": "2025-11-05",
+          "url": "https://www.freightos.com/freight-resources/china-us-agreement-unlikely-to-spur-freight-surge/"
+        },
+        {
+          "date": "2025-11-11",
+          "url": "https://www.freightos.com/freight-resources/ocean-rates-climb-for-now-on-gris-despite-demand-slump-red-sea-return-coming-soon-november-11-2025-update/"
+        },
+        {
+          "date": "2025-11-18",
+          "url": "https://www.freightos.com/freight-resources/transpac-ocean-rates-retreat-from-nov-gri-asia-europe-holds-november-18-2025-update/"
+        },
+        {
+          "date": "2025-11-25",
+          "url": "https://www.freightos.com/freight-resources/transpac-ocean-rates-fizzle-red-sea-return-coming-soon-november-25-2025-update/"
+        }
+      ]
+    },
+    "2025-12": {
+      "method": "5 期 Freightos 周报算术平均（回溯核实）",
+      "reports": [
+        {
+          "date": "2025-12-03",
+          "url": "https://www.freightos.com/freight-resources/red-sea-rebound-false-start-december-3-2025-update/"
+        },
+        {
+          "date": "2025-12-09",
+          "url": "https://www.freightos.com/freight-resources/more-ocean-gris-transpac-air-rates-surge-on-final-peak-push-december-9-2025-update/"
+        },
+        {
+          "date": "2025-12-16",
+          "url": "https://www.freightos.com/freight-resources/asia-europe-rates-staying-elevated-on-some-early-pre-lny-start-december-12-2025-update/"
+        },
+        {
+          "date": "2025-12-23",
+          "url": "https://www.freightos.com/freight-resources/lny-pickup-for-asia-europe-more-carriers-testing-the-red-sea-december-23-2025-update/"
+        },
+        {
+          "date": "2025-12-30",
+          "url": "https://www.freightos.com/freight-resources/ocean-rates-tick-up-to-close-the-year-as-air-peak-fades-december-30-2025-update/"
+        }
+      ]
+    },
+    "2026-01": {
+      "method": "4 期 Freightos 周报算术平均（回溯核实）",
+      "reports": [
+        {
+          "date": "2026-01-06",
+          "url": "https://www.freightos.com/freight-resources/lny-demand-pushing-ocean-rates-up-as-air-moves-past-peak-january-6-2026-update/"
+        },
+        {
+          "date": "2026-01-13",
+          "url": "https://www.freightos.com/freight-resources/ocean-rates-up-pre-lny-geopolitics-driving-more-uncertainty-january-13-2026-update/"
+        },
+        {
+          "date": "2026-01-21",
+          "url": "https://www.freightos.com/freight-resources/greenland-drama-adds-new-dose-of-trade-uncertainty-january-21-2026-update/"
+        },
+        {
+          "date": "2026-01-27",
+          "url": "https://www.freightos.com/freight-resources/more-tariff-threats-lny-rush-easing-and-winter-storm-disruptions-january-27-2026-update/"
+        }
+      ]
+    },
+    "2026-02": {
+      "method": "2 期 Freightos 周报算术平均（回溯核实）",
+      "reports": [
+        {
+          "date": "2026-02-03",
+          "url": "https://www.freightos.com/freight-resources/winter-weather-challenges-trade-deals-and-more-tariff-threats-february-3-2026-update/"
+        },
+        {
+          "date": "2026-02-10",
+          "url": "https://www.freightos.com/freight-resources/transpac-ocean-rates-slide-early-carrier-revenue-slipping-as-fleet-grows-february-10-2026-update/"
+        }
+      ]
+    },
+    "2026-03": {
+      "method": "2 期 Freightos 周报算术平均（回溯核实）",
+      "reports": [
+        {
+          "date": "2026-03-04",
+          "url": "https://www.freightos.com/freight-resources/iran-war-pushing-air-rates-up-and-disrupting-ocean-march-4-2026-update/"
+        },
+        {
+          "date": "2026-03-24",
+          "url": "https://www.freightos.com/freight-resources/air-rates-climbing-again-as-fuel-costs-rise-march-24-2026-update/"
+        }
+      ]
+    },
+    "2026-04": {
+      "method": "3 期 Freightos 周报算术平均（回溯核实）",
+      "reports": [
+        {
+          "date": "2026-04-15",
+          "url": "https://www.freightos.com/freight-resources/transatlantic-ocean-rates-spike-as-surcharges-take-effect-april-14-2026-update/"
+        },
+        {
+          "date": "2026-04-22",
+          "url": "https://www.freightos.com/freight-resources/asia-europe-ocean-rates-slide-despite-hormuz-pressure-april-21-2026-update/"
+        },
+        {
+          "date": "2026-04-28",
+          "url": "https://www.freightos.com/freight-resources/transpac-ocean-rates-continue-to-edge-up-on-iran-pressure-april-28-2026-update/"
+        }
+      ]
+    },
+    "2026-05": {
+      "method": "海运沿用原值，已用 6 月周报百分比锚点交叉验证；空运取 5/26 期周报",
+      "locked": true,
+      "reports": [
+        {
+          "date": "2026-05-26",
+          "url": "https://www.freightos.com/freight-resources/demand-rebound-pushing-rates-up-for-early-start-to-ocean-peak-season-may-26-2026-update/",
+          "quote": "China - N. America weekly prices $6.16/kg"
+        },
+        {
+          "date": "2026-06-30",
+          "url": "https://www.freightos.com/freight-resources/ocean-rates-steady-as-shippers-brace-for-july-hikes-june-30-2026-update/",
+          "quote": "$8,000/FEU to the East Coast for an 85% increase over the last six weeks -> 反推 5 月中 $4,324，与图表 $4,340 吻合；West Coast a 120% climb since mid-May -> 反推 $2,818，与图表 $2,828 吻合"
         }
       ]
     }

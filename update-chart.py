@@ -189,12 +189,44 @@ def write_month(chart, month, readings):
             if "air_cn_eu" in avg:
                 route["air_per_kg"][idx] = avg["air_cn_eu"]
 
+    reports = [{"date": r["date"], "url": r.get("url", ""), "source": r["source"]} for r in readings]
     chart["monthlySources"][month] = {
         "method": f"{len(readings)} 期读数算术平均",
-        "reports": [{"date": r["date"], "url": r.get("url", ""), "source": r["source"]} for r in readings],
+        "reports": reports[:8],   # 避免 JSON 膨胀，只保留前 8 条溯源记录
+        "reportCount": len(reports),
     }
     print(f"  写入 {month}: {avg}（{len(readings)} 期）")
     return avg
+
+
+def month_range(start, end):
+    """返回 (start, end] 之间的月份标签，start/end 形如 2026-08"""
+    ys, ms = int(start[:4]), int(start[5:7])
+    ye, me = int(end[:4]), int(end[5:7])
+    out = []
+    while (ys, ms) < (ye, me):
+        ms += 1
+        if ms > 12:
+            ys, ms = ys + 1, 1
+        out.append(f"{ys:04d}-{ms:02d}")
+    return out
+
+
+def fill_missing_month_labels(chart, last_complete_month):
+    """
+    保证 months 是连续的自然月序列，直到上一个已结束的月份。
+    某个月一条读数都没抓到时，也要有这个月的标签（值为 null），
+    否则 X 轴会直接跳过该月、时间轴被压缩变形。
+    """
+    if not chart["months"]:
+        return
+    newest = max(chart["months"])
+    for mo in month_range(newest, last_complete_month):
+        ensure_month(chart, mo)
+        chart["monthlySources"].setdefault(mo, {
+            "method": "该月未取到任何读数，保持 null（不插值）",
+            "reports": [],
+        })
 
 
 def main():
@@ -243,6 +275,12 @@ def main():
             print(f"  {month} 已有数据，不回头覆盖历史，跳过")
             continue
         write_month(chart, month, by_month[month])
+
+    # 补齐缺失的月份标签，保证时间轴连续（上一个已结束的月份为止）
+    y, mm = int(this_month[:4]), int(this_month[5:7]) - 1
+    if mm == 0:
+        y, mm = y - 1, 12
+    fill_missing_month_labels(chart, f"{y:04d}-{mm:02d}")
 
     chart["pendingReadings"] = sorted(still_pending, key=lambda r: r["date"])
     chart["lastUpdated"] = today
