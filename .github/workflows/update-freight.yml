@@ -7,6 +7,8 @@ on:
     # 每月1号 UTC 10:00 更新图表数据
     - cron: '0 10 1 * *'
   workflow_dispatch:
+  repository_dispatch:
+    types: [run-now]  # 允许用只有 contents:write 的 PAT 手动触发
 
 permissions:
   contents: write

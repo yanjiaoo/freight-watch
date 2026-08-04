@@ -1,164 +1,263 @@
 #!/usr/bin/env python3
 """
-月度更新图表数据：从 Freightos 周报抓取最新 FBX 数据，追加到 freight-chart-data.json
-每月1号运行，提取上月的运价数据
+更新 freight-chart-data.json 的月度运价。
+
+数据源（都是机器可读的结构化数据，不做散文解析）：
+  1. 海运 FBX 指数 —— https://fbx.freightos.com/ 页面内嵌的官方 ticker JSON
+     window.frProductIntroTickerData[...] = [{"label":"FBX01","value":"$6,129",...}, ...]
+  2. 空运 / 结构化周报 —— https://www.freightos.com/wp-json/wp/v2/posts
+     "Freight rate update" 类周报里的固定句式：
+       "Asia-US West Coast prices (FBX01 Weekly) decreased 12% to $6,212/FEU."
+       "China - N. America weekly prices decreased 2% to $5.76/kg."
+
+为什么换掉原来的实现：
+  原来读 Google News RSS 的 <description>，那里只有标题重复、没有任何运价数字，
+  正则永远匹配不到，每次都打印"未提取到有效数据，跳过更新"。
+  6、7 月数据缺失就是这个原因（脚本从上线起就没成功写入过一次）。
+
+为什么不解析普通周报的正文：
+  普通周报是散文，"$1,000/FEU" 可能是涨幅、也可能是水平值，语序还不固定
+  （"to the West Coast to more than $5,700/FEU" vs "$6,200/FEU to the West Coast"），
+  正则会静默写错数字。这类月份人工录入并在 monthlySources 里标 locked。
+
+口径：
+  每次运行把当天读数追加到 pendingReadings；
+  当某个自然月结束后，用该月所有读数的算术平均写入图表，并记录用了哪些读数。
+  monthlySources 里 locked=true 的月份不会被覆盖。
+
+无公开月度数据源、脚本不会填的字段：
+  中国→日本航线、中欧班列 rail_per_kg  → 保持 null，需人工维护
 """
-import urllib.request
-import xml.etree.ElementTree as ET
 import json
 import re
 import html
-from datetime import datetime, timezone, timedelta
-from urllib.parse import quote
+import urllib.request
+from datetime import datetime, timezone
+
+UA = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122.0 Safari/537.36",
+    "Accept": "text/html,application/json;q=0.9,*/*;q=0.8",
+}
+FBX_URL = "https://fbx.freightos.com/"
+POSTS_URL = ("https://www.freightos.com/wp-json/wp/v2/posts"
+             "?per_page=25&search=Update&_fields=id,date,link,title,content")
+
+DASH = r"[-\u2013\u2014]"
+# 只接受明确的水平值：数字前必须是 to / at（"peak of $5.25/kg" 这类不会被吃进来）
+AIR_PATTERNS = {
+    "air_cn_us": rf"China\s*{DASH}\s*(?:N\.?\s*America|US)\b.{{0,120}}?(?:to|at)\s*(?:about\s*)?\$([\d.]+)\s*/\s*kg",
+    "air_cn_eu": rf"China\s*{DASH}\s*(?:N\.?\s*)?Europe\b.{{0,120}}?(?:to|at)\s*(?:about\s*)?\$([\d.]+)\s*/\s*kg",
+}
+# 只认结构化周报里带 (FBXxx Weekly) 标记的句子
+OCEAN_PATTERNS = {
+    "west_coast": r"\(FBX01 Weekly\).{0,80}?\$([\d,]+)\s*/\s*FEU",
+    "east_coast": r"\(FBX03 Weekly\).{0,80}?\$([\d,]+)\s*/\s*FEU",
+    "north_europe": r"\(FBX11 Weekly\).{0,80}?\$([\d,]+)\s*/\s*FEU",
+}
+TICKER_MAP = {"FBX01": "west_coast", "FBX03": "east_coast", "FBX11": "north_europe"}
 
 
-def fetch_freightos_reports():
-    """从 AJOT 和 Container News 抓取最近的 Freightos 周报"""
-    queries = [
-        'Freightos weekly update FBX container rates site:ajot.com',
-        'Freightos weekly update container rates site:container-news.com',
-    ]
-    articles = []
-    for q in queries:
-        url = f'https://news.google.com/rss/search?q={quote(q)}&hl=en&gl=US&ceid=US:en'
+def _get(url, limit=800000):
+    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30) as r:
+        return r.read(limit).decode("utf-8", "ignore")
+
+
+def fetch_fbx_ticker():
+    """从 fbx.freightos.com 抓当前 FBX 各航线即期运价"""
+    try:
+        txt = _get(FBX_URL)
+    except Exception as e:
+        print(f"  [WARN] FBX 页面抓取失败: {e}")
+        return {}
+    blocks = re.findall(r"frProductIntroTickerData\['[^']+'\]\s*=\s*(\[.*?\]);", txt, re.S)
+    for b in blocks:
         try:
-            req = urllib.request.Request(url, headers={'User-Agent': 'FreightChartBot/1.0'})
-            with urllib.request.urlopen(req, timeout=15) as resp:
-                data = resp.read()
-            root = ET.fromstring(data)
-            for item in root.findall('.//item')[:5]:
-                title = html.unescape(item.findtext('title', ''))
-                desc = re.sub(r'<[^>]+>', '', html.unescape(item.findtext('description', ''))).strip()
-                link = item.findtext('link', '')
-                pub_date = item.findtext('pubDate', '')
-                try:
-                    dt = datetime.strptime(pub_date, '%a, %d %b %Y %H:%M:%S %Z')
-                except Exception:
-                    dt = datetime.now(timezone.utc)
-                articles.append({
-                    'title': title, 'content': desc,
-                    'url': link, 'date': dt.strftime('%Y-%m-%d'),
-                })
-        except Exception as e:
-            print(f'  [WARN] {e}')
-    return articles
+            arr = json.loads(b)
+        except json.JSONDecodeError:
+            continue
+        vals = {}
+        for d in arr:
+            key = TICKER_MAP.get(d.get("label", ""))
+            if key:
+                m = re.search(r"([\d,]+)", d.get("value", ""))
+                if m:
+                    vals[key] = int(m.group(1).replace(",", ""))
+        if vals:
+            return vals
+    print("  [WARN] FBX ticker 未找到可解析数据")
+    return {}
 
 
-def extract_fbx_from_text(text):
-    """从文本中提取 FBX 运价数据"""
-    data = {}
+def fetch_post_readings():
+    """从 Freightos 周报抓空运水平值 + 结构化 FBX 值"""
+    try:
+        posts = json.loads(_get(POSTS_URL))
+    except Exception as e:
+        print(f"  [WARN] 周报列表抓取失败: {e}")
+        return []
 
-    # FBX01 美西
-    m = re.search(r'(?:West Coast|FBX01)[^$]*\$([0-9,]+)/FEU', text)
-    if m:
-        data['west_coast'] = int(m.group(1).replace(',', ''))
+    out = []
+    for p in posts:
+        body = re.sub(r"<[^>]+>", " ", html.unescape(p.get("content", {}).get("rendered", "")))
+        body = re.sub(r"\s+", " ", body)
+        vals = {}
+        for key, pat in {**AIR_PATTERNS, **OCEAN_PATTERNS}.items():
+            m = re.search(pat, body, re.IGNORECASE)
+            if m:
+                raw = m.group(1).replace(",", "")
+                vals[key] = float(raw) if "." in raw else int(raw)
+        if not vals:
+            continue
+        title = html.unescape(re.sub(r"<[^>]+>", "", p.get("title", {}).get("rendered", "")))
+        out.append({
+            "date": p["date"][:10],
+            "source": "Freightos Weekly Update",
+            "title": title,
+            "url": p.get("link", ""),
+            "values": vals,
+        })
+        print(f"  [{p['date'][:10]}] {vals}")
+    return out
 
-    # FBX03 美东
-    m = re.search(r'(?:East Coast|FBX03)[^$]*\$([0-9,]+)/FEU', text)
-    if m:
-        data['east_coast'] = int(m.group(1).replace(',', ''))
 
-    # FBX11 北欧
-    m = re.search(r'(?:N\.\s*Europe|North Europe|FBX11)[^$]*\$([0-9,]+)/FEU', text)
-    if m:
-        data['north_europe'] = int(m.group(1).replace(',', ''))
+def merge_readings(existing, new):
+    """按 (date, source) 去重合并"""
+    seen = {(r.get("date"), r.get("source")) for r in existing}
+    merged = list(existing)
+    for r in new:
+        k = (r.get("date"), r.get("source"))
+        if k not in seen:
+            seen.add(k)
+            merged.append(r)
+    merged.sort(key=lambda r: r.get("date", ""))
+    return merged
 
-    # 空运 中国-美国
-    m = re.search(r'China\s*[-–]\s*N\.\s*America[^$]*\$([0-9.]+)/kg', text)
-    if m:
-        data['air_cn_us'] = float(m.group(1))
 
-    # 空运 中国-欧洲
-    m = re.search(r'China\s*[-–]\s*N\.\s*Europe[^$]*\$([0-9.]+)/kg', text)
-    if m:
-        data['air_cn_eu'] = float(m.group(1))
+def ensure_month(chart, month):
+    months = chart["months"]
+    if month in months:
+        return months.index(month)
+    months.append(month)
+    months.sort()
+    idx = months.index(month)
+    for route in chart["routes"].values():
+        for arr in route.values():
+            if isinstance(arr, list):
+                arr.insert(idx, None)
+    print(f"  新增月份 {month} at idx={idx}")
+    return idx
 
-    return data
+
+def is_month_empty(chart, month):
+    """该月是否还没有任何运价数据（只填空缺，绝不回头改写已核对的历史）"""
+    if month not in chart["months"]:
+        return True
+    idx = chart["months"].index(month)
+    for route in chart["routes"].values():
+        for key, arr in route.items():
+            if key == "rail_per_kg":
+                continue
+            if isinstance(arr, list) and idx < len(arr) and arr[idx] is not None:
+                return False
+    return True
+
+
+def write_month(chart, month, readings):
+    vals = {}
+    for r in readings:
+        for k, v in r["values"].items():
+            vals.setdefault(k, []).append(v)
+    avg = {k: (round(sum(v) / len(v), 2) if k.startswith("air") else int(round(sum(v) / len(v))))
+           for k, v in vals.items()}
+
+    idx = ensure_month(chart, month)
+    for rk, route in chart["routes"].items():
+        ocean = "ocean_fcl_feu" if "ocean_fcl_feu" in route else "ocean_fcl_teu"
+        if "美西" in rk:
+            if "west_coast" in avg:
+                route[ocean][idx] = avg["west_coast"]
+            if "air_cn_us" in avg:
+                route["air_per_kg"][idx] = avg["air_cn_us"]
+        elif "美东" in rk:
+            if "east_coast" in avg:
+                route[ocean][idx] = avg["east_coast"]
+            if "air_cn_us" in avg:
+                route["air_per_kg"][idx] = avg["air_cn_us"]
+        elif "北欧" in rk:
+            if "north_europe" in avg:
+                route[ocean][idx] = avg["north_europe"]
+            if "air_cn_eu" in avg:
+                route["air_per_kg"][idx] = avg["air_cn_eu"]
+
+    chart["monthlySources"][month] = {
+        "method": f"{len(readings)} 期读数算术平均",
+        "reports": [{"date": r["date"], "url": r.get("url", ""), "source": r["source"]} for r in readings],
+    }
+    print(f"  写入 {month}: {avg}（{len(readings)} 期）")
+    return avg
 
 
 def main():
-    print('=== 月度更新图表数据 ===')
+    print("=== 更新图表月度运价 ===")
+    with open("freight-chart-data.json", "r", encoding="utf-8") as f:
+        chart = json.load(f)
+    chart.setdefault("monthlySources", {})
+    chart.setdefault("pendingReadings", [])
 
-    # 1. 抓取最新 Freightos 周报
-    articles = fetch_freightos_reports()
-    print(f'抓取到 {len(articles)} 篇周报')
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    this_month = today[:7]
 
-    # 2. 提取 FBX 数据
-    latest_data = {}
-    for article in articles:
-        text = article['title'] + ' ' + article['content']
-        extracted = extract_fbx_from_text(text)
-        if extracted:
-            # 用最新的数据覆盖
-            for k, v in extracted.items():
-                if k not in latest_data:
-                    latest_data[k] = v
-            print(f'  从 [{article["date"]}] 提取: {extracted}')
+    print("\n[1] 抓取 FBX 官方 ticker")
+    ticker = fetch_fbx_ticker()
+    new_readings = []
+    if ticker:
+        print(f"  当前 FBX: {ticker}")
+        new_readings.append({"date": today, "source": "FBX ticker",
+                             "url": FBX_URL, "title": "Freightos Baltic Index", "values": ticker})
 
-    if not latest_data:
-        print('未提取到有效数据，跳过更新')
+    print("\n[2] 抓取 Freightos 周报")
+    new_readings += fetch_post_readings()
+
+    if not new_readings:
+        print("\n未取到任何读数，退出")
         return
 
-    print(f'最终提取数据: {latest_data}')
+    readings = merge_readings(chart["pendingReadings"], new_readings)
+    print(f"\n[3] 累积读数 {len(readings)} 条")
 
-    # 3. 读取现有图表数据
-    with open('freight-chart-data.json', 'r', encoding='utf-8') as f:
-        chart = json.load(f)
+    by_month = {}
+    for r in readings:
+        by_month.setdefault(r["date"][:7], []).append(r)
 
-    # 4. 计算当前月份标签
-    now = datetime.now(timezone.utc)
-    current_month = now.strftime('%Y-%m')
-    months = chart['months']
+    print("\n[4] 结算已完结的月份")
+    still_pending = []
+    for month in sorted(by_month):
+        if month >= this_month:
+            print(f"  {month} 尚未结束，留在 pendingReadings（{len(by_month[month])} 期）")
+            still_pending += by_month[month]
+            continue
+        if chart["monthlySources"].get(month, {}).get("locked"):
+            print(f"  {month} 已锁定（人工核对过），跳过")
+            continue
+        if not is_month_empty(chart, month):
+            print(f"  {month} 已有数据，不回头覆盖历史，跳过")
+            continue
+        write_month(chart, month, by_month[month])
 
-    if current_month in months:
-        # 更新当月数据
-        idx = months.index(current_month)
-        print(f'更新当月 {current_month} (index {idx})')
-    else:
-        # 追加新月份
-        months.append(current_month)
-        idx = len(months) - 1
-        # 各航线追加 null 占位
-        for route in chart['routes'].values():
-            for key in route:
-                if isinstance(route[key], list):
-                    route[key].append(None)
-        print(f'追加新月份 {current_month} (index {idx})')
+    chart["pendingReadings"] = sorted(still_pending, key=lambda r: r["date"])
+    chart["lastUpdated"] = today
+    chart["dataSource"] = ("海运 Freightos Baltic Index (FBX)：https://fbx.freightos.com/ ；"
+                           "空运 Freightos Air Index：Freightos 官方周报 https://www.freightos.com/freight-resources/")
+    chart["note"] = ("海运为 FBX 即期运价($/FEU 40尺柜)，空运为 Freightos Air Index($/kg)。"
+                     "月度值为该月各期读数的算术平均，用了哪几期见 monthlySources。"
+                     "中国→日本航线与中欧班列 rail_per_kg 无公开月度数据源，需人工维护，"
+                     "缺失月份保持 null（图上表现为断线，不做插值）。")
 
-    # 5. 填入数据
-    routes = chart['routes']
-    route_keys = list(routes.keys())
-
-    # 找到对应航线
-    for rk in route_keys:
-        rk_lower = rk.lower()
-        if '美西' in rk or 'fbx01' in rk_lower:
-            if 'west_coast' in latest_data:
-                feu_key = 'ocean_fcl_feu' if 'ocean_fcl_feu' in routes[rk] else 'ocean_fcl_teu'
-                routes[rk][feu_key][idx] = latest_data['west_coast']
-            if 'air_cn_us' in latest_data:
-                routes[rk]['air_per_kg'][idx] = latest_data['air_cn_us']
-        elif '美东' in rk or 'fbx03' in rk_lower:
-            if 'east_coast' in latest_data:
-                feu_key = 'ocean_fcl_feu' if 'ocean_fcl_feu' in routes[rk] else 'ocean_fcl_teu'
-                routes[rk][feu_key][idx] = latest_data['east_coast']
-            if 'air_cn_us' in latest_data:
-                routes[rk]['air_per_kg'][idx] = latest_data.get('air_cn_us')
-        elif '北欧' in rk or '欧洲' in rk or 'fbx11' in rk_lower:
-            if 'north_europe' in latest_data:
-                feu_key = 'ocean_fcl_feu' if 'ocean_fcl_feu' in routes[rk] else 'ocean_fcl_teu'
-                routes[rk][feu_key][idx] = latest_data['north_europe']
-            if 'air_cn_eu' in latest_data:
-                routes[rk]['air_per_kg'][idx] = latest_data['air_cn_eu']
-
-    chart['lastUpdated'] = now.strftime('%Y-%m-%d')
-
-    # 6. 写入
-    with open('freight-chart-data.json', 'w', encoding='utf-8') as f:
+    with open("freight-chart-data.json", "w", encoding="utf-8") as f:
         json.dump(chart, f, ensure_ascii=False, indent=2)
 
-    print(f'图表数据已更新，当前 {len(months)} 个月')
+    print(f"\n完成：{len(chart['months'])} 个月，pendingReadings {len(chart['pendingReadings'])} 条")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

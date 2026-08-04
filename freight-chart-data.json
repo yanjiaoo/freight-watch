@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-14",
-  "dataSource": "Freightos Baltic Index (FBX) / Drewry WCI / AJOT Freightos Weekly Update",
-  "note": "海运数据为FBX即期运价($/FEU 40尺柜)，空运数据为Freightos Air Index($/kg)",
+  "lastUpdated": "2026-08-04",
+  "dataSource": "海运 Freightos Baltic Index (FBX)：https://fbx.freightos.com/ ；空运 Freightos Air Index：Freightos 官方周报 https://www.freightos.com/freight-resources/",
+  "note": "海运为 FBX 即期运价($/FEU 40尺柜)，空运为 Freightos Air Index($/kg)。月度值为该月各期读数的算术平均，用了哪几期见 monthlySources。中国→日本航线与中欧班列 rail_per_kg 无公开月度数据源，需人工维护，缺失月份保持 null（图上表现为断线，不做插值）。",
   "months": [
     "2025-01",
     "2025-02",
@@ -19,7 +19,9 @@
     "2026-02",
     "2026-03",
     "2026-04",
-    "2026-05"
+    "2026-05",
+    "2026-06",
+    "2026-07"
   ],
   "routes": {
     "中国→美西 (FBX01)": {
@@ -40,7 +42,9 @@
         1800,
         1700,
         2400,
-        2828
+        2828,
+        5950,
+        6212
       ],
       "air_per_kg": [
         5.5,
@@ -59,9 +63,13 @@
         4.9,
         5.6,
         7.3,
-        6.8
+        6.8,
+        6.4,
+        6.16
       ],
       "rail_per_kg": [
+        null,
+        null,
         null,
         null,
         null,
@@ -99,7 +107,9 @@
         2500,
         2400,
         3100,
-        4340
+        4340,
+        7700,
+        9002
       ],
       "air_per_kg": [
         6.8,
@@ -118,9 +128,13 @@
         5.5,
         6.0,
         7.4,
-        7.0
+        7.0,
+        6.4,
+        6.16
       ],
       "rail_per_kg": [
+        null,
+        null,
         null,
         null,
         null,
@@ -158,7 +172,9 @@
         2000,
         1900,
         2900,
-        2500
+        2500,
+        4800,
+        5575
       ],
       "air_per_kg": [
         4.5,
@@ -177,7 +193,9 @@
         3.3,
         4.0,
         5.0,
-        5.8
+        5.8,
+        4.59,
+        4.03
       ],
       "rail_per_kg": [
         0.18,
@@ -196,7 +214,9 @@
         0.13,
         0.12,
         0.12,
-        0.13
+        0.13,
+        null,
+        null
       ]
     },
     "中国→日本": {
@@ -217,7 +237,9 @@
         900,
         880,
         950,
-        1600
+        1600,
+        null,
+        null
       ],
       "air_per_kg": [
         3.8,
@@ -236,9 +258,13 @@
         2.8,
         2.6,
         2.8,
-        4.5
+        4.5,
+        null,
+        null
       ],
       "rail_per_kg": [
+        null,
+        null,
         null,
         null,
         null,
@@ -300,5 +326,57 @@
     ],
     "unit": "$/barrel",
     "source": "EIA / FRED"
-  }
+  },
+  "monthlySources": {
+    "2026-06": {
+      "method": "2 期周报算术平均（海运 6/23、6/30；空运 6/16、6/30），均取原文明确给出的水平值",
+      "locked": true,
+      "reports": [
+        {
+          "date": "2026-06-16",
+          "url": "https://www.freightos.com/freight-resources/ocean-rates-level-but-mid-month-increases-possible-soon-june-16-2026-update/",
+          "quote": "China - N. America rates were level at $6.20/kg; China - Europe rates ticked up 3% to $4.62/kg"
+        },
+        {
+          "date": "2026-06-23",
+          "url": "https://www.freightos.com/freight-resources/ocean-rates-climb-again-even-as-fuel-costs-ease-june-23-2026-update/",
+          "quote": "West Coast more than $5,700/FEU; East Coast $7,400/FEU; Asia-Europe $4,700/FEU"
+        },
+        {
+          "date": "2026-06-30",
+          "url": "https://www.freightos.com/freight-resources/ocean-rates-steady-as-shippers-brace-for-july-hikes-june-30-2026-update/",
+          "quote": "about $6,200/FEU to the West Coast and $8,000/FEU to the East Coast; Asia-Europe at $4,900/FEU; China-US $6.60/kg; China-Europe $4.55/kg"
+        }
+      ]
+    },
+    "2026-07": {
+      "method": "海运取 7/29 期 FBX 周度值；空运为 7/8、7/29 两期算术平均",
+      "locked": true,
+      "reports": [
+        {
+          "date": "2026-07-08",
+          "url": "https://www.freightos.com/freight-resources/container-rates-jump-another-1k-feu-but-is-demand-peaking-july-8-2026-update/",
+          "quote": "China - N. America prices stable at $6.56/kg; China - Europe $4.21/kg"
+        },
+        {
+          "date": "2026-07-29",
+          "url": "https://www.freightos.com/freight-resources/freight-rate-update-for-july-29th-july-29-2026-update/",
+          "quote": "FBX01 $6,212/FEU; FBX03 $9,002/FEU; FBX11 $5,575/FEU; China-N.America $5.76/kg; China-N.Europe $3.84/kg"
+        }
+      ]
+    }
+  },
+  "pendingReadings": [
+    {
+      "date": "2026-08-04",
+      "source": "FBX ticker",
+      "url": "https://fbx.freightos.com/",
+      "title": "Freightos Baltic Index",
+      "values": {
+        "west_coast": 6129,
+        "east_coast": 9012,
+        "north_europe": 5531
+      }
+    }
+  ]
 }
