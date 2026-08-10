@@ -1,6 +1,21 @@
 [
   {
     "id": "fw_auto_001",
+    "title": "Shipping costs bounce back as US routes heat up",
+    "date": "2026-08-10",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Shipping costs bounce back as US routes heat up  InteriorDaily",
+    "source": "InteriorDaily",
+    "links": [
+      {
+        "label": "InteriorDaily",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeWR0SGpadTRpZEh4UENhZzI0RXRHY2lJT0JpMU42QlhmMTg4YXZKMWZ3Qno3cHBLM3J1UVVaczVQR3lPVjNGRVdGUnQwZ0dBRkhldWpyMkNmX1F5R3dKaEEzVWNQeDB6b0tTbk1BQl8tNkxFSDZZMFZic1J2UUxXMGVMUjVETjB3VTQ4MjJnbWU5dFd4QkJpY0dR?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_002",
     "title": "Drewry WCI rebounds after 3-week decline on Transpacific rates",
     "date": "2026-08-07",
     "route": "",
@@ -10,22 +25,7 @@
     "links": [
       {
         "label": "Fibre2Fashion",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSXFJSUwwRi1FNHYzbnR4eFB2a09xa2RldE1ZT2R4UEZIZzZaTzdxMlh3Szl4VHlZeTg0U0NRa1lNUDBkaG00VF9EZS00cTRyU1E5M3A0TEFlcWxTNXFOUGZqNDhxVGJWMnEyVURPMmpGdFlERkNCUF9zTVpMb0VsWU0tZTZTVHF1MHp0eEtKTE9PRVAycGtZaktxTURRY0xEdWJzUEMtV3BWX3N5cHRlbEYxMW1MbnVJM0lIelV0WDl2ZTNHeVVZRnJTbVBXUQ?oc=5"
-      }
-    ]
-  },
-  {
-    "id": "fw_auto_002",
-    "title": "[Freightos Weekly Update] Transpac peak may stretch on even as Asia - Europe ocean cools",
-    "date": "2026-08-06",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "[Freightos Weekly Update] Transpac peak may stretch on even as Asia - Europe ocean cools  American Journal of Transportation",
-    "source": "American Journal of Transportation",
-    "links": [
-      {
-        "label": "American Journal of Transportation",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNM3ZHWnB3Q1d6OHNvWGh1WmE4dE5DMFZSS2FNem93TDNZcmJJZGpHX3RfUEFtaHJTb2NZdzJuaS1zLUZTeUJ4VkNsLVZSZzJKVzlHY21XZnh0UndsMTMtVDBrMllxNWJvTnZfOHZBMnRVeWIwOFFUcE9hVE1XdWxyaHdGdkF2Y0VWQndrdkRjY2dKQ2JrUVdUbnBoNDh6aXhwcjgwZllUVGVZQzBDUGFj?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNaG9lODVDR2NoNjlYekRvV0VaN2x5LWRKcWhad1h6N0h1SU9IbTZpZmFXVkFldzZKYld0RHkwSDBGWGNNYjJTY0tWSDBHNGRzOENEVUpzckxRb1B2ZzFYaXRuWEQwaEsxa184LUk0N2diLVM4Si1yR1NrMVcxcjdZekNJZnV0X0xwU0RUelFEN1J1WGNONkc5RExSVzgxbTZrMW5wZGE3M0NNazBrV0xXUkhtR2Nza3RIaXlTUWY3VWhpeVpndlNPeTFrTHJ2V0tEenpoUHRGemhBc2xV?oc=5"
       }
     ]
   },
@@ -50,27 +50,27 @@
     "date": "2026-07-29",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "Freight rate update for July 29th – July 29, 2026 Update  freightos.com",
-    "source": "freightos.com",
+    "summary": "Freight rate update for July 29th – July 29, 2026 Update  Freightos",
+    "source": "Freightos",
     "links": [
       {
-        "label": "freightos.com",
+        "label": "Freightos",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONDRmUGJfYXRxSU4wY2hvdXNLTWItYXh5VVZlZFVDU3Z4S2JVS0l5b2NZd0pvcGRrOG1mNExDbkRIVXNDYkU4Q0RGaVlBSnl6QmJRTFl6LUF2ZTNvdXVJWE5uQWY4Wi1VbHl6US1BNW5JNm1YeC1oNFRRSWNlN0V5a3E5eFc1UHBVNmRYWkVPbzhtZV9Jc1ZKaFNFdDVCSGc?oc=5"
       }
     ]
   },
   {
     "id": "fw_auto_005",
-    "title": "Ocean rates ease on early peak season cooling and capacity additions - July 22, 2026 Update",
-    "date": "2026-07-22",
+    "title": "Ocean rates level, but mid-month increases possible soon – June 16, 2026 Update",
+    "date": "2026-06-16",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "Ocean rates ease on early peak season cooling and capacity additions - July 22, 2026 Update  freightos.com",
-    "source": "freightos.com",
+    "summary": "Ocean rates level, but mid-month increases possible soon – June 16, 2026 Update  Freightos",
+    "source": "Freightos",
     "links": [
       {
-        "label": "freightos.com",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQME02VVZnOXJSVnZHbzJudkRzcFZ3MExZOVZWYmQ3VmtvVlJJaFNsT3VUUnk0QVNZQWJLWm00RGl2WFpjNWJKZ1RzWDZVUGtwLS1LQjRJbnVpZUFWNWp2UmZ5dm1nOHA0X0xUVFpzQVQ0X2dVNjlFaWxSbENBZmtOOVJ4bkNpOEswX0YxWmhVLV8tTEdQTmgtT3BoRDlSbEtMR25STk91LWFzV3dtckVCMW9ieWxkRkx5bmhkZUlSQk1UbjBKZXd2bzNGcVhvQQ?oc=5"
+        "label": "Freightos",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZDNYVnRMal8yUDdCLWRsMDdUNWd5SU9vQ2pKb0l2RzlOd2ZrSjVFTXZJbHRFUE5BQjBHU2RocnRWdzZMRi1oQW85SDNLalpaU2djODQtaGtlZWNFdmxvZDV3c2pNdlJ2ekVuNm9jZkk1dmd5TWNqdS11YmZNYjFPWTBnZU5OQ3NjQkpfWV82ckdIaWJmdWo5RG8zcVRiVThSLU1ydXhIcV9IdzY3YjgwUS1MYmlueFJ6RVRQRw?oc=5"
       }
     ]
   },
@@ -80,42 +80,42 @@
     "date": "2026-06-12",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "Ocean rates climbing, with more increases expected soon – June 9, 2026 Update  freightos.com",
-    "source": "freightos.com",
+    "summary": "Ocean rates climbing, with more increases expected soon – June 9, 2026 Update  Freightos",
+    "source": "Freightos",
     "links": [
       {
-        "label": "freightos.com",
+        "label": "Freightos",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPal83WW5xb0dxTXVxUURQS2FmR2RuYXNDVmU2dHRQSTdPVENjNWpBQmZ3Y2pnX29aSzdrbEZDUkViYnQwb2lLenJQdVVsdTEyUWdSSjJkQkJmRFdub2Y3SjdYd2pLOVoxQVJtUWl4TE5ISWxwS0ZlNWx2QlR2SXRtaWpNTDM1QXNtcDQtWVlySW0yQ2tJTEJ2MXZ2TW15QkswejVqWTB0SHdDSFFRUlVFUjZJSktpSGw2V0E?oc=5"
       }
     ]
   },
   {
     "id": "fw_auto_007",
-    "title": "Container peak season arrives early as freight rates skyrocket",
-    "date": "2026-06-04",
+    "title": "Container rates starting to spike on peak season rush – June 2, 2026 Update",
+    "date": "2026-06-02",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "Container peak season arrives early as freight rates skyrocket  Seatrade Maritime News",
-    "source": "Seatrade Maritime News",
+    "summary": "Container rates starting to spike on peak season rush – June 2, 2026 Update  Freightos",
+    "source": "Freightos",
     "links": [
       {
-        "label": "Seatrade Maritime News",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcGp1TC1kcEJLdkc3ZnJmREMyTWg0Nl92UDFFS3BQNk5SMWViNnZnUC1ya3NpSzRlVzdYWWNYWUV2V01sR213bDg0b2c3Ymh3WmU5NzJqd2k1NlNuNzEzaktfeE02cWFlY0RzaElmUl9LZEZHcnA4SEx5RF9xNUgtVEZxTE9xdVlIM1hNV3hmUGtER0tIX3lXV3RESXRJR2c1ak5GYTZlWDlDSE0?oc=5"
+        "label": "Freightos",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPT2haREVKSEl1R1hEOG9URzVXY1ZMQ0tqRU5iUWtwU0VwX3FEN0owa0JEcnRUczY2cE5mVzlESnZIVnJ3bm04OE5GMGYyQ0hnb2ltWEE3U0Jma3gxSnZVWUJLZ0NWcEtISGxfRmxXU2FUODlRN0lMV0tnNU1UNHI3bGwwYUk0RmRhQWlFLUU1VkRJZS1ocjliYXVmTXBxeWxzMmhabnhvcXVtLTZyRVFRTzJiNUtYZVRM?oc=5"
       }
     ]
   },
   {
     "id": "fw_auto_008",
-    "title": "Container rates starting to spike on peak season rush – June 2, 2026 Update",
-    "date": "2026-06-02",
+    "title": "World Container Index climbs as Asia-Europe freight rates surge",
+    "date": "2026-05-24",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "Container rates starting to spike on peak season rush – June 2, 2026 Update  freightos.com",
-    "source": "freightos.com",
+    "summary": "World Container Index climbs as Asia-Europe freight rates surge  Container News",
+    "source": "Container News",
     "links": [
       {
-        "label": "freightos.com",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPT2haREVKSEl1R1hEOG9URzVXY1ZMQ0tqRU5iUWtwU0VwX3FEN0owa0JEcnRUczY2cE5mVzlESnZIVnJ3bm04OE5GMGYyQ0hnb2ltWEE3U0Jma3gxSnZVWUJLZ0NWcEtISGxfRmxXU2FUODlRN0lMV0tnNU1UNHI3bGwwYUk0RmRhQWlFLUU1VkRJZS1ocjliYXVmTXBxeWxzMmhabnhvcXVtLTZyRVFRTzJiNUtYZVRM?oc=5"
+        "label": "Container News",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOUJ5NE5jSGhnX1hjdm9rZlVta3U1WmN2VG42YTlUQnNzMTlFeU9sa1ZDWTRDaHd5Y0lxY3BidmFrUHYtNXAzRTJXaTNSc3FmVkpCWlRSMmUyN3hxalhqMWNqZ1JQVEtRUnEtb2ZWUnphdUdJMmxCVlpxb1NGSFlEOXJUQXVmX3VoRmR0NEdoRHlaSTVaV3c?oc=5"
       }
     ]
   }
