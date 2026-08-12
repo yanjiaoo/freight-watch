@@ -5,11 +5,11 @@
     "date": "2026-08-10",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "Shipping costs bounce back as US routes heat up  InteriorDaily",
-    "source": "InteriorDaily",
+    "summary": "Shipping costs bounce back as US routes heat up  Interior Daily",
+    "source": "Interior Daily",
     "links": [
       {
-        "label": "InteriorDaily",
+        "label": "Interior Daily",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeWR0SGpadTRpZEh4UENhZzI0RXRHY2lJT0JpMU42QlhmMTg4YXZKMWZ3Qno3cHBLM3J1UVVaczVQR3lPVjNGRVdGUnQwZ0dBRkhldWpyMkNmX1F5R3dKaEEzVWNQeDB6b0tTbk1BQl8tNkxFSDZZMFZic1J2UUxXMGVMUjVETjB3VTQ4MjJnbWU5dFd4QkJpY0dR?oc=5"
       }
     ]
@@ -25,7 +25,7 @@
     "links": [
       {
         "label": "Fibre2Fashion",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNaG9lODVDR2NoNjlYekRvV0VaN2x5LWRKcWhad1h6N0h1SU9IbTZpZmFXVkFldzZKYld0RHkwSDBGWGNNYjJTY0tWSDBHNGRzOENEVUpzckxRb1B2ZzFYaXRuWEQwaEsxa184LUk0N2diLVM4Si1yR1NrMVcxcjdZekNJZnV0X0xwU0RUelFEN1J1WGNONkc5RExSVzgxbTZrMW5wZGE3M0NNazBrV0xXUkhtR2Nza3RIaXlTUWY3VWhpeVpndlNPeTFrTHJ2V0tEenpoUHRGemhBc2xV?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSXFJSUwwRi1FNHYzbnR4eFB2a09xa2RldE1ZT2R4UEZIZzZaTzdxMlh3Szl4VHlZeTg0U0NRa1lNUDBkaG00VF9EZS00cTRyU1E5M3A0TEFlcWxTNXFOUGZqNDhxVGJWMnEyVURPMmpGdFlERkNCUF9zTVpMb0VsWU0tZTZTVHF1MHp0eEtKTE9PRVAycGtZaktxTURRY0xEdWJzUEMtV3BWX3N5cHRlbEYxMW1MbnVJM0lIelV0WDl2ZTNHeVVZRnJTbVBXUQ?oc=5"
       }
     ]
   },
@@ -46,36 +46,6 @@
   },
   {
     "id": "fw_auto_004",
-    "title": "Freight rate update for July 29th – July 29, 2026 Update",
-    "date": "2026-07-29",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "Freight rate update for July 29th – July 29, 2026 Update  Freightos",
-    "source": "Freightos",
-    "links": [
-      {
-        "label": "Freightos",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONDRmUGJfYXRxSU4wY2hvdXNLTWItYXh5VVZlZFVDU3Z4S2JVS0l5b2NZd0pvcGRrOG1mNExDbkRIVXNDYkU4Q0RGaVlBSnl6QmJRTFl6LUF2ZTNvdXVJWE5uQWY4Wi1VbHl6US1BNW5JNm1YeC1oNFRRSWNlN0V5a3E5eFc1UHBVNmRYWkVPbzhtZV9Jc1ZKaFNFdDVCSGc?oc=5"
-      }
-    ]
-  },
-  {
-    "id": "fw_auto_005",
-    "title": "Ocean rates level, but mid-month increases possible soon – June 16, 2026 Update",
-    "date": "2026-06-16",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "Ocean rates level, but mid-month increases possible soon – June 16, 2026 Update  Freightos",
-    "source": "Freightos",
-    "links": [
-      {
-        "label": "Freightos",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZDNYVnRMal8yUDdCLWRsMDdUNWd5SU9vQ2pKb0l2RzlOd2ZrSjVFTXZJbHRFUE5BQjBHU2RocnRWdzZMRi1oQW85SDNLalpaU2djODQtaGtlZWNFdmxvZDV3c2pNdlJ2ekVuNm9jZkk1dmd5TWNqdS11YmZNYjFPWTBnZU5OQ3NjQkpfWV82ckdIaWJmdWo5RG8zcVRiVThSLU1ydXhIcV9IdzY3YjgwUS1MYmlueFJ6RVRQRw?oc=5"
-      }
-    ]
-  },
-  {
-    "id": "fw_auto_006",
     "title": "Ocean rates climbing, with more increases expected soon – June 9, 2026 Update",
     "date": "2026-06-12",
     "route": "",
@@ -90,7 +60,7 @@
     ]
   },
   {
-    "id": "fw_auto_007",
+    "id": "fw_auto_005",
     "title": "Container rates starting to spike on peak season rush – June 2, 2026 Update",
     "date": "2026-06-02",
     "route": "",
@@ -105,7 +75,7 @@
     ]
   },
   {
-    "id": "fw_auto_008",
+    "id": "fw_auto_006",
     "title": "World Container Index climbs as Asia-Europe freight rates surge",
     "date": "2026-05-24",
     "route": "",
@@ -116,6 +86,36 @@
       {
         "label": "Container News",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOUJ5NE5jSGhnX1hjdm9rZlVta3U1WmN2VG42YTlUQnNzMTlFeU9sa1ZDWTRDaHd5Y0lxY3BidmFrUHYtNXAzRTJXaTNSc3FmVkpCWlRSMmUyN3hxalhqMWNqZ1JQVEtRUnEtb2ZWUnphdUdJMmxCVlpxb1NGSFlEOXJUQXVmX3VoRmR0NEdoRHlaSTVaV3c?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_007",
+    "title": "Drewry: Container Spot Rates Continue Climb as Early Peak Season Gains Momentum",
+    "date": "2026-05-21",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Drewry: Container Spot Rates Continue Climb as Early Peak Season Gains Momentum  gCaptain",
+    "source": "gCaptain",
+    "links": [
+      {
+        "label": "gCaptain",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSnphengwaUpNcHhzUm9ITmpObHNIRHFCVjd4dkIzLXdNWWthR2wxLVdJWkk3N25JWElYMHFHb095WEd4R2JwQ25UemFMc2VzYWRNeUlpWlpEM3I5Q0xybE5DTGl1NkNPbnhGakpud21JUHJFbEZUbGoxWDMydS1HWEZuNWZZanVVVVpsUVd3Nm1OZFE1c292eTZ1RWdacXY5Y1E?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_008",
+    "title": "Matson reports air-to-ocean freight conversions amid Iran war",
+    "date": "2026-05-21",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Matson reports air-to-ocean freight conversions amid Iran war  Supply Chain Dive",
+    "source": "Supply Chain Dive",
+    "links": [
+      {
+        "label": "Supply Chain Dive",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPT2VUOFE3eE95SF9OX2xyYzdJalc1cTlvV1doTXpNcFVrdllXcjFJWTBUbGhQS1M2b1VBYUNPUkc2SHBHVEdINWRyQlJiMnZINWlZcnpKbDR1LWhrUVU5aS1jSzZWczZzMXhsRG5NSk50Wk83THk2NmxuZ0Nkd3BwOWFrM2M4SVZBYlBfUzhjcmcyVUJqeVl6VXJoaTN2WlJ4cFVjYkVQSHJRZw?oc=5"
       }
     ]
   }
