@@ -1,21 +1,51 @@
 [
   {
     "id": "fw_auto_001",
-    "title": "Freightos Weekly Update: Hormuz hopes dashed; Asia - Europe and transpac ocean rates diverge on extended US peak",
-    "date": "2026-08-13",
+    "title": "Container Shipping Rates: WCI Up 1%, Transpacific Rates Surge, Asia-Europe Declines - News and Statistics",
+    "date": "2026-08-15",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "Freightos Weekly Update: Hormuz hopes dashed; Asia - Europe and transpac ocean rates diverge on extended US peak  container-news.com",
-    "source": "container-news.com",
+    "summary": "Container Shipping Rates: WCI Up 1%, Transpacific Rates Surge, Asia-Europe Declines - News and Statistics  IndexBox",
+    "source": "IndexBox",
     "links": [
       {
-        "label": "container-news.com",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUlBnaDBpd2ZJRWtZZFZzTDl6WWlNMjlNY0RQU25ZQjNyR3A2NGRzdlR3d2IxZVowbWtnb25BMHBXNnh5SDdwanpkcUtpUmlqMk8wSUpqeXF4OEppS19fMlRnMkxFQ3RDcUdtWDc5OFpiN3REeGNBVjVZcHIxSnlKQUdwdkRsVkFlcEl2LUdiRzZhZGx2eHI5T1pqVzFSOHEtSm5uVFhXdVRfM01EUTF4WjBpVnpMTktsYk1QU0lnREQ2WlByZ3dOaUgxZkRsUndkdGc?oc=5"
+        "label": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVF9QQlNDRzNpNmVpR21hVU1uN21uUFBVTTdVdUdHS2o5d0I5aGJXZHJ2SVBLc0NRMnotS2J4RjFheGsyWUhRYXVIOS1qSlVmVmVtYUJOVllsVkdyaFdBX2I0bGxxakEtRFlqeWdpR3M0akJpQ1dITHZXMXZOREpMazNFc0ZqbXAx?oc=5"
       }
     ]
   },
   {
     "id": "fw_auto_002",
+    "title": "Drewry WCI further rises in second consecutive week on rates hike",
+    "date": "2026-08-14",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Drewry WCI further rises in second consecutive week on rates hike  Fibre2Fashion",
+    "source": "Fibre2Fashion",
+    "links": [
+      {
+        "label": "Fibre2Fashion",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUEhvcEZWOU84d19tSzZQZTZHYk9sWmw5aXZQQnZFbEJKUlpyNlBITHNXR2d5TjFDSkRBMzhlTHNkRzlGRE00ZTBvVTg4ZFVHampBd01NUVVLX3kzRUJmZ0hzajBqRnlDY0libXJIOXhTaUE1dXpMQmZnMGVheW94a0YzTk1Rc2loMWVTZ3FHRTRFNlNTakdOdVlrRk1UaDUxTEh6VDFZa1FTbncwQTJxbTUzNkxSZFRrdl93YlRsN3BrQUNiZDFucTBCZVM5TmR6WlE?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_003",
+    "title": "US-bound freight rates jump as capacity tightens and global disruptions persist",
+    "date": "2026-08-14",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "US-bound freight rates jump as capacity tightens and global disruptions persist  Interior Daily",
+    "source": "Interior Daily",
+    "links": [
+      {
+        "label": "Interior Daily",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYmRtMmZOME5tNkFYWDBybTdFQ3VxYXFsVVJWV0s1enNvNlRJT08yQzlHZHc0SlR2bFFiMVltOFplWldWcE5QQk1UdGdka09YR0dWdHV2M28zODZjUE5pSzA1ZTk0cHJXMDJ2QlN5bjhCREZpTHlBQkU1ZWpKYlA2N3djUGlKQkdFeUxPazJoczRzbkNhbnZuZF9JYm1pQ0ZBQm9mVXh5Yl82X3ZYWHg1cmZRWjZxVmFVQ2NNSTRtQUc1Zl9x?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_004",
     "title": "Asia to US East Coast ocean rates rise to new high",
     "date": "2026-08-12",
     "route": "",
@@ -30,7 +60,7 @@
     ]
   },
   {
-    "id": "fw_auto_003",
+    "id": "fw_auto_005",
     "title": "Hormuz hopes dashed; Asia - Europe and transpac ocean rates diverge on extended US peak - August 11, 2026 Update",
     "date": "2026-08-11",
     "route": "",
@@ -45,77 +75,47 @@
     ]
   },
   {
-    "id": "fw_auto_004",
-    "title": "Shipping costs bounce back as US routes heat up",
-    "date": "2026-08-10",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "Shipping costs bounce back as US routes heat up  Interior Daily",
-    "source": "Interior Daily",
-    "links": [
-      {
-        "label": "Interior Daily",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeWR0SGpadTRpZEh4UENhZzI0RXRHY2lJT0JpMU42QlhmMTg4YXZKMWZ3Qno3cHBLM3J1UVVaczVQR3lPVjNGRVdGUnQwZ0dBRkhldWpyMkNmX1F5R3dKaEEzVWNQeDB6b0tTbk1BQl8tNkxFSDZZMFZic1J2UUxXMGVMUjVETjB3VTQ4MjJnbWU5dFd4QkJpY0dR?oc=5"
-      }
-    ]
-  },
-  {
-    "id": "fw_auto_005",
-    "title": "Drewry WCI rebounds after 3-week decline on Transpacific rates",
-    "date": "2026-08-07",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "Drewry WCI rebounds after 3-week decline on Transpacific rates  Fibre2Fashion",
-    "source": "Fibre2Fashion",
-    "links": [
-      {
-        "label": "Fibre2Fashion",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNaG9lODVDR2NoNjlYekRvV0VaN2x5LWRKcWhad1h6N0h1SU9IbTZpZmFXVkFldzZKYld0RHkwSDBGWGNNYjJTY0tWSDBHNGRzOENEVUpzckxRb1B2ZzFYaXRuWEQwaEsxa184LUk0N2diLVM4Si1yR1NrMVcxcjdZekNJZnV0X0xwU0RUelFEN1J1WGNONkc5RExSVzgxbTZrMW5wZGE3M0NNazBrV0xXUkhtR2Nza3RIaXlTUWY3VWhpeVpndlNPeTFrTHJ2V0tEenpoUHRGemhBc2xV?oc=5"
-      }
-    ]
-  },
-  {
     "id": "fw_auto_006",
     "title": "FCLGO Launches Amazon Fulfillment Center Locations Routing Service to Eliminate FBA Compliance Rejections for Cross-Border Sellers",
     "date": "2026-08-02",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "FCLGO Launches Amazon Fulfillment Center Locations Routing Service to Eliminate FBA Compliance Rejections for Cross-Border Sellers  TMX Newsfile",
-    "source": "TMX Newsfile",
+    "summary": "FCLGO Launches Amazon Fulfillment Center Locations Routing Service to Eliminate FBA Compliance Rejections for Cross-Border Sellers  newsfilecorp.com",
+    "source": "newsfilecorp.com",
     "links": [
       {
-        "label": "TMX Newsfile",
+        "label": "newsfilecorp.com",
         "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQSEo4Tk1maGhwX0N4LXIwajZGS2gxdHlKRGtxMFFvUjJfcFgzNVpZbDVIOW5Ha2I1VFRIbFNQdHBtXzdJd0Z5dkFEYXBrdFJ4dTdBVW0xbE45TzFRZGZBSF9KYmpoMWNMZl91cnh3SENqRUpyNzJDNWtPYnhnWWV0MXg3OFJ0QmIwREFTa2R6R1FKRnZ3eFRFV3VzcEMwcl8yRU5yTUM2YTJRSEVtbjNFbmwtNUxuX1RLQTJoOHEwd254WmxEUFNab0hsb1gwd0hFLTBUak1rMFZwVHpmWHRKYmE4V3BCbEdDbWg5N2NDN05XR0RjU1VqaTJVZTg0YVFNalhZ?oc=5"
       }
     ]
   },
   {
     "id": "fw_auto_007",
-    "title": "Del Monte faces about $40M headwind from primarily ocean freight",
-    "date": "2026-06-29",
+    "title": "Transpacific ocean rates fueled by early peak, frontloading",
+    "date": "2026-07-07",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "Del Monte faces about $40M headwind from primarily ocean freight  Supply Chain Dive",
+    "summary": "Transpacific ocean rates fueled by early peak, frontloading  Supply Chain Dive",
     "source": "Supply Chain Dive",
     "links": [
       {
         "label": "Supply Chain Dive",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTVhBeHhncWcwMW4xZ19FdllDRzF3MXlpY3B2ejJFNHdHM2ZDeEVHbmxMb1RsZTdIeDJSTURKaXpKeEtydW9acjhLUXA1d29BcHpCQU9QX2o1VGVTSXh4VUJ1ZGhQOGJiTld0WHZtQm9NX1hwck1nYXB4OFE1TFB1TEFOSzVPbGFKNkVjX3hFaHBSQ2VMWjVWYXV0X0J5d25ES0VXaEdfNi1CX184?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZHZOa04xcE5ocVpsYWlvU2tuOUU5dkozQ3d6V2w4UHNTdXNPSklvQkdhczhoUDNpbXNabjNscWlRRnVjX0p0c1NjcU53amFGa2YxSC1LbVRSMk9MOFo3NlFGLWlDanA4dHhYay1lWDd0YnJCaVowOHpqV3NTWEt5ZzJUNkZkWXp2NDdKczRtdWNyT2pvZldoaDhlZkdCRHFENF9pYjZR?oc=5"
       }
     ]
   },
   {
     "id": "fw_auto_008",
-    "title": "Ocean rates climbing, with more increases expected soon – June 9, 2026 Update",
-    "date": "2026-06-12",
+    "title": "Ocean rates steady as shippers brace for July hikes – June 30, 2026 Update",
+    "date": "2026-06-30",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "Ocean rates climbing, with more increases expected soon – June 9, 2026 Update  Freightos",
+    "summary": "Ocean rates steady as shippers brace for July hikes – June 30, 2026 Update  Freightos",
     "source": "Freightos",
     "links": [
       {
         "label": "Freightos",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPal83WW5xb0dxTXVxUURQS2FmR2RuYXNDVmU2dHRQSTdPVENjNWpBQmZ3Y2pnX29aSzdrbEZDUkViYnQwb2lLenJQdVVsdTEyUWdSSjJkQkJmRFdub2Y3SjdYd2pLOVoxQVJtUWl4TE5ISWxwS0ZlNWx2QlR2SXRtaWpNTDM1QXNtcDQtWVlySW0yQ2tJTEJ2MXZ2TW15QkswejVqWTB0SHdDSFFRUlVFUjZJSktpSGw2V0E?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNY0phQVlOSDV5N1VVX21sdXNVTEM3QlhnSVFsSHlUVWtJLURTMFp0NXUtc1VNWXdmUUgwVjZuc25lOERjY1dCaFRlT0R4WEgwaS1uaHZFN1VoZE0xMVUxazhDMnBXc0lXVUZlWVVSb2pVeGdUdGRUeTRIUkRldWdLRmZPczdOMHJIaDlWcDNvRlBIUFFVN0NOMUZqUlJqNU1pOG11VmduXzNiWTRpelNyNW5QM0Y2RmM?oc=5"
       }
     ]
   }
