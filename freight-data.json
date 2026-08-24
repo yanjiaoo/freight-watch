@@ -1,6 +1,21 @@
 [
   {
     "id": "fw_auto_001",
+    "title": "Drewry WCI surges 4% for 3rd week on higher Transpacific freight",
+    "date": "2026-08-21",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Drewry WCI surges 4% for 3rd week on higher Transpacific freight  Fibre2Fashion",
+    "source": "Fibre2Fashion",
+    "links": [
+      {
+        "label": "Fibre2Fashion",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZEhaZ0FLUElOZzlBNXVEaTBxUGduTGFOLWZCSmJReGhueFR5QUxsd3dkbnU2eDluSWNDV2RZTG1aWHZJUVZpQnBCSnpoMWdRLTdEdXdMN2NjT1M5VUJhbTZPNFdvX1IxTjVhUE42QkdvaVNaek9ueWs5ZUdsQXhvVlVucUVrcUJRMTBHRHJ1QU40bTJxTE9EWmxyZGk3MlRROExoOS1ucWRsRzc1RnFmeE9kYUF2cDdOVzNZakd4MFNyRG1GeTFLN2d3QmhxUXM?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_002",
     "title": "Congestion playing a bigger role in container rates – August 18, 2026 Update",
     "date": "2026-08-19",
     "route": "",
@@ -15,7 +30,7 @@
     ]
   },
   {
-    "id": "fw_auto_002",
+    "id": "fw_auto_003",
     "title": "Container Shipping Rates: WCI Up 1%, Transpacific Rates Surge, Asia-Europe Declines - News and Statistics",
     "date": "2026-08-15",
     "route": "",
@@ -30,7 +45,7 @@
     ]
   },
   {
-    "id": "fw_auto_003",
+    "id": "fw_auto_004",
     "title": "News Shipping disruption sees 'rate increase fire' spread from spots to contracts",
     "date": "2026-08-14",
     "route": "",
@@ -45,7 +60,7 @@
     ]
   },
   {
-    "id": "fw_auto_004",
+    "id": "fw_auto_005",
     "title": "Shipping costs bounce back as US routes heat up",
     "date": "2026-08-10",
     "route": "",
@@ -60,7 +75,7 @@
     ]
   },
   {
-    "id": "fw_auto_005",
+    "id": "fw_auto_006",
     "title": "FCLGO Launches Amazon Fulfillment Center Locations Routing Service to Eliminate FBA Compliance Rejections for Cross-Border Sellers",
     "date": "2026-08-02",
     "route": "",
@@ -75,7 +90,7 @@
     ]
   },
   {
-    "id": "fw_auto_006",
+    "id": "fw_auto_007",
     "title": "Container rates jump another $1k/FEU – but is demand peaking? – July 8, 2026 Update",
     "date": "2026-07-09",
     "route": "",
@@ -90,32 +105,17 @@
     ]
   },
   {
-    "id": "fw_auto_007",
-    "title": "Del Monte faces about $40M headwind from primarily ocean freight",
-    "date": "2026-06-29",
+    "id": "fw_auto_008",
+    "title": "Transpacific ocean rates fueled by early peak, frontloading",
+    "date": "2026-07-07",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "Del Monte faces about $40M headwind from primarily ocean freight  Supply Chain Dive",
+    "summary": "Transpacific ocean rates fueled by early peak, frontloading  Supply Chain Dive",
     "source": "Supply Chain Dive",
     "links": [
       {
         "label": "Supply Chain Dive",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTVhBeHhncWcwMW4xZ19FdllDRzF3MXlpY3B2ejJFNHdHM2ZDeEVHbmxMb1RsZTdIeDJSTURKaXpKeEtydW9acjhLUXA1d29BcHpCQU9QX2o1VGVTSXh4VUJ1ZGhQOGJiTld0WHZtQm9NX1hwck1nYXB4OFE1TFB1TEFOSzVPbGFKNkVjX3hFaHBSQ2VMWjVWYXV0X0J5d25ES0VXaEdfNi1CX184?oc=5"
-      }
-    ]
-  },
-  {
-    "id": "fw_auto_008",
-    "title": "Ocean rates climb again even as fuel costs ease – June 23, 2026 Update",
-    "date": "2026-06-25",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "Ocean rates climb again even as fuel costs ease – June 23, 2026 Update  Freightos",
-    "source": "Freightos",
-    "links": [
-      {
-        "label": "Freightos",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOenkzTndiRk00Tzh3NjB2bXJnLU1TQ0ltVUxReE5pQVNmYmplRGNEYUZmZnIzMEIwcWJ1aV9Pamg3ZF9xNE1zbWJTOGJSWGQ4VkNDZ01YemlmT2ZUa25TQWVWQ0VXU2tSRm1yZk9OS2JCb2dHRkk0UThPX0hsaGE5ZGt5Qzk3SzJwMlUzS1VQVldORGhRU1lRYlZBVmMyX1YzOUlZOTdIOTRpY2lnMmIzMXVB?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZHZOa04xcE5ocVpsYWlvU2tuOUU5dkozQ3d6V2w4UHNTdXNPSklvQkdhczhoUDNpbXNabjNscWlRRnVjX0p0c1NjcU53amFGa2YxSC1LbVRSMk9MOFo3NlFGLWlDanA4dHhYay1lWDd0YnJCaVowOHpqV3NTWEt5ZzJUNkZkWXp2NDdKczRtdWNyT2pvZldoaDhlZkdCRHFENF9pYjZR?oc=5"
       }
     ]
   }
