@@ -1,6 +1,21 @@
 [
   {
     "id": "fw_auto_001",
+    "title": "[Freightos Weekly Update] New US - CA tariffs, and sanctions for Iran which could rock US-CN boat",
+    "date": "2026-08-25",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "[Freightos Weekly Update] New US - CA tariffs, and sanctions for Iran which could rock US-CN boat  American Journal of Transportation",
+    "source": "American Journal of Transportation",
+    "links": [
+      {
+        "label": "American Journal of Transportation",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPS1dYcEZOcFNubVNNSGM4dGFSUnBSTElGb1dxMWZIMkJNTEJzeUpSQjJKWXVsU2ZyQlNPUm92TjYzUDd0VnNNLVcyVnhHNzFLVy1LUHdLZFEtYWpLTkFPX1M0OW91ejV5TF9aMldPZTg3cWozSzllOG11a3QwOXU1TWVkX3RFMUIzbEpsVGRhZmlkX05jak1NQmZGdXVWUEVOQXhMblV5ZFN4eFE0QVNERzRSSUxhMUVwV2c?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_002",
     "title": "Drewry WCI surges 4% for 3rd week on higher Transpacific freight",
     "date": "2026-08-21",
     "route": "",
@@ -15,7 +30,7 @@
     ]
   },
   {
-    "id": "fw_auto_002",
+    "id": "fw_auto_003",
     "title": "Congestion playing a bigger role in container rates – August 18, 2026 Update",
     "date": "2026-08-19",
     "route": "",
@@ -30,7 +45,7 @@
     ]
   },
   {
-    "id": "fw_auto_003",
+    "id": "fw_auto_004",
     "title": "Container Shipping Rates: WCI Up 1%, Transpacific Rates Surge, Asia-Europe Declines - News and Statistics",
     "date": "2026-08-15",
     "route": "",
@@ -45,7 +60,7 @@
     ]
   },
   {
-    "id": "fw_auto_004",
+    "id": "fw_auto_005",
     "title": "News Shipping disruption sees 'rate increase fire' spread from spots to contracts",
     "date": "2026-08-14",
     "route": "",
@@ -60,7 +75,7 @@
     ]
   },
   {
-    "id": "fw_auto_005",
+    "id": "fw_auto_006",
     "title": "Shipping costs bounce back as US routes heat up",
     "date": "2026-08-10",
     "route": "",
@@ -75,7 +90,7 @@
     ]
   },
   {
-    "id": "fw_auto_006",
+    "id": "fw_auto_007",
     "title": "FCLGO Launches Amazon Fulfillment Center Locations Routing Service to Eliminate FBA Compliance Rejections for Cross-Border Sellers",
     "date": "2026-08-02",
     "route": "",
@@ -90,7 +105,7 @@
     ]
   },
   {
-    "id": "fw_auto_007",
+    "id": "fw_auto_008",
     "title": "Container rates jump another $1k/FEU – but is demand peaking? – July 8, 2026 Update",
     "date": "2026-07-09",
     "route": "",
@@ -101,21 +116,6 @@
       {
         "label": "Freightos",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTVJFSmpBM29na0tCSmdFbXVwMFg5OFBqbzNKd24xUmJCeHBlNUFIV0k4eHcyTEtPdnlzbGM2MzlvU0xieW80LWtpQV90ZXJ6cmVpQ2dmZU12UXR6c0ZYMDFMQkNpb0RLTDAwRWpUdC05ajZPcTItRUx2dF9uZEUtV2tjY1NQa2Y1VVpGeHRtSWI1MGRmUFhJTEw2bmZuUk00VzNyWkl2elFYWER4NjlDOGRKNTI5RWo5VDEyaGxB?oc=5"
-      }
-    ]
-  },
-  {
-    "id": "fw_auto_008",
-    "title": "Transpacific ocean rates fueled by early peak, frontloading",
-    "date": "2026-07-07",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "Transpacific ocean rates fueled by early peak, frontloading  Supply Chain Dive",
-    "source": "Supply Chain Dive",
-    "links": [
-      {
-        "label": "Supply Chain Dive",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZHZOa04xcE5ocVpsYWlvU2tuOUU5dkozQ3d6V2w4UHNTdXNPSklvQkdhczhoUDNpbXNabjNscWlRRnVjX0p0c1NjcU53amFGa2YxSC1LbVRSMk9MOFo3NlFGLWlDanA4dHhYay1lWDd0YnJCaVowOHpqV3NTWEt5ZzJUNkZkWXp2NDdKczRtdWNyT2pvZldoaDhlZkdCRHFENF9pYjZR?oc=5"
       }
     ]
   }
