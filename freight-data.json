@@ -16,46 +16,46 @@
   },
   {
     "id": "fw_auto_002",
-    "title": "Drewry WCI surges 4% for 3rd week on higher Transpacific freight",
-    "date": "2026-08-21",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "Drewry WCI surges 4% for 3rd week on higher Transpacific freight  Fibre2Fashion",
-    "source": "Fibre2Fashion",
-    "links": [
-      {
-        "label": "Fibre2Fashion",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZEhaZ0FLUElOZzlBNXVEaTBxUGduTGFOLWZCSmJReGhueFR5QUxsd3dkbnU2eDluSWNDV2RZTG1aWHZJUVZpQnBCSnpoMWdRLTdEdXdMN2NjT1M5VUJhbTZPNFdvX1IxTjVhUE42QkdvaVNaek9ueWs5ZUdsQXhvVlVucUVrcUJRMTBHRHJ1QU40bTJxTE9EWmxyZGk3MlRROExoOS1ucWRsRzc1RnFmeE9kYUF2cDdOVzNZakd4MFNyRG1GeTFLN2d3QmhxUXM?oc=5"
-      }
-    ]
-  },
-  {
-    "id": "fw_auto_003",
     "title": "News Shipping disruption sees 'rate increase fire' spread from spots to contracts",
     "date": "2026-08-14",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "News Shipping disruption sees 'rate increase fire' spread from spots to contracts  The Loadstar",
-    "source": "The Loadstar",
+    "summary": "News Shipping disruption sees 'rate increase fire' spread from spots to contracts  theloadstar.com",
+    "source": "theloadstar.com",
     "links": [
       {
-        "label": "The Loadstar",
+        "label": "theloadstar.com",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdDdRNUtUM1l4ZnRiSmNGamlIRTctZERCcTltamFpQ2l1OTBQV001dEVucV9TTVZkNGRremplU2Rxd3J5NHV5MVBZdFRrMTg1TFctS0hMNHZ0S2tEYl9zc2lPS2dpRXJZSXR3aHYzbC10LXVzREV3LTBEcXVxRHEyRzlqRXg1VGRHVDNmVzNwUGdyaXo0aFRaOVZoeHp0YXNa?oc=5"
       }
     ]
   },
   {
-    "id": "fw_auto_004",
+    "id": "fw_auto_003",
     "title": "Asia to US East Coast ocean rates rise to new high",
     "date": "2026-08-12",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "Asia to US East Coast ocean rates rise to new high  Supply Chain Dive",
-    "source": "Supply Chain Dive",
+    "summary": "Asia to US East Coast ocean rates rise to new high  supplychaindive.com",
+    "source": "supplychaindive.com",
     "links": [
       {
-        "label": "Supply Chain Dive",
+        "label": "supplychaindive.com",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcTJmbkMtWmE1UkNjZEJhSXIyaVU0TXZueGl6WVBxTkg4U1NLdFdEdlBCalRjenVKU3VvRXdRc3F6aDNtLWVjMXBMcEVxSndxVkxaU1dWSW5xNlFoelB6aUo3cWRLODhwMi0wRUNVZXFxZGh5WE5LNHB1WENrbGxPbktWaUJFejM0c05ZYTZIc05WRVBjR1lKMDlYUQ?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_004",
+    "title": "Shipping costs bounce back as US routes heat up",
+    "date": "2026-08-10",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Shipping costs bounce back as US routes heat up  InteriorDaily",
+    "source": "InteriorDaily",
+    "links": [
+      {
+        "label": "InteriorDaily",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeWR0SGpadTRpZEh4UENhZzI0RXRHY2lJT0JpMU42QlhmMTg4YXZKMWZ3Qno3cHBLM3J1UVVaczVQR3lPVjNGRVdGUnQwZ0dBRkhldWpyMkNmX1F5R3dKaEEzVWNQeDB6b0tTbk1BQl8tNkxFSDZZMFZic1J2UUxXMGVMUjVETjB3VTQ4MjJnbWU5dFd4QkJpY0dR?oc=5"
       }
     ]
   },
@@ -110,11 +110,11 @@
     "date": "2026-07-07",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "Transpacific ocean rates fueled by early peak, frontloading  Supply Chain Dive",
-    "source": "Supply Chain Dive",
+    "summary": "Transpacific ocean rates fueled by early peak, frontloading  supplychaindive.com",
+    "source": "supplychaindive.com",
     "links": [
       {
-        "label": "Supply Chain Dive",
+        "label": "supplychaindive.com",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZHZOa04xcE5ocVpsYWlvU2tuOUU5dkozQ3d6V2w4UHNTdXNPSklvQkdhczhoUDNpbXNabjNscWlRRnVjX0p0c1NjcU53amFGa2YxSC1LbVRSMk9MOFo3NlFGLWlDanA4dHhYay1lWDd0YnJCaVowOHpqV3NTWEt5ZzJUNkZkWXp2NDdKczRtdWNyT2pvZldoaDhlZkdCRHFENF9pYjZR?oc=5"
       }
     ]

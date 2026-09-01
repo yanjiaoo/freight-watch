@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31",
+  "lastUpdated": "2026-09-01",
   "dataSource": "海运 Freightos Baltic Index (FBX)：https://fbx.freightos.com/ ；空运 Freightos Air Index：Freightos 官方周报 https://www.freightos.com/freight-resources/",
   "note": "海运为 Freightos Baltic Index (FBX) 即期运价($/FEU 40尺柜)，空运为 Freightos Air Index($/kg)，原油为 EIA 官方月度现货均价($/桶)。所有数值均可溯源到原始发布方，月度值为该月各期读数的算术平均，用了哪几期见 monthlySources。无法核实的数据不予收录；缺读数的月份为 null，不插值、不推算。",
   "months": [
@@ -21,7 +21,8 @@
     "2026-04",
     "2026-05",
     "2026-06",
-    "2026-07"
+    "2026-07",
+    "2026-08"
   ],
   "routes": {
     "中国→美西 (FBX01)": {
@@ -44,7 +45,8 @@
         2653,
         2828,
         5950,
-        6212
+        6212,
+        7017
       ],
       "air_per_kg": [
         5.73,
@@ -65,7 +67,8 @@
         5.88,
         6.16,
         6.4,
-        6.16
+        6.16,
+        6.06
       ]
     },
     "中国→美东 (FBX03)": {
@@ -88,7 +91,8 @@
         3810,
         4340,
         7700,
-        9002
+        9002,
+        9327
       ],
       "air_per_kg": [
         5.73,
@@ -109,7 +113,8 @@
         5.88,
         6.16,
         6.4,
-        6.16
+        6.16,
+        6.06
       ]
     },
     "中国→北欧 (FBX11)": {
@@ -132,7 +137,8 @@
         2743,
         2500,
         4800,
-        5575
+        5575,
+        5047
       ],
       "air_per_kg": [
         3.35,
@@ -153,7 +159,8 @@
         5.1,
         null,
         4.59,
-        4.03
+        4.03,
+        4.19
       ]
     }
   },
@@ -177,7 +184,8 @@
       117.29,
       107.14,
       85.4,
-      83.76
+      83.76,
+      null
     ],
     "wti": [
       75.74,
@@ -198,12 +206,13 @@
       100.32,
       102.13,
       84.81,
-      80.46
+      80.46,
+      null
     ],
     "unit": "$/barrel",
     "source": "EIA 美国能源信息署官方月度现货均价 — Brent: RBRTE https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=M ；WTI: RWTC https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=M",
     "note": "EIA 通常滞后约1个月发布，未发布的月份为 null，不做推算。",
-    "lastFetched": "2026-08-31"
+    "lastFetched": "2026-09-01"
   },
   "monthlySources": {
     "2026-06": {
@@ -586,173 +595,57 @@
           "quote": "$8,000/FEU to the East Coast for an 85% increase over the last six weeks -> 反推 5 月中 $4,324，与图表 $4,340 吻合；West Coast a 120% climb since mid-May -> 反推 $2,818，与图表 $2,828 吻合"
         }
       ]
+    },
+    "2026-08": {
+      "method": "16 期读数算术平均",
+      "reports": [
+        {
+          "date": "2026-08-04",
+          "url": "https://fbx.freightos.com/",
+          "source": "FBX ticker"
+        },
+        {
+          "date": "2026-08-05",
+          "url": "https://fbx.freightos.com/",
+          "source": "FBX ticker"
+        },
+        {
+          "date": "2026-08-07",
+          "url": "https://fbx.freightos.com/",
+          "source": "FBX ticker"
+        },
+        {
+          "date": "2026-08-07",
+          "url": "https://www.freightos.com/freight-resources/transpac-peak-may-stretch-on-even-as-asia-europe-ocean-cools-august-7-2026-update/",
+          "source": "Freightos Weekly Update"
+        },
+        {
+          "date": "2026-08-10",
+          "url": "https://fbx.freightos.com/",
+          "source": "FBX ticker"
+        },
+        {
+          "date": "2026-08-11",
+          "url": "https://www.freightos.com/freight-resources/hormuz-hopes-dashed-asia-europe-and-transpac-ocean-rates-diverge-on-extended-us-peak-august-11-2026-update/",
+          "source": "Freightos Weekly Update"
+        },
+        {
+          "date": "2026-08-12",
+          "url": "https://fbx.freightos.com/",
+          "source": "FBX ticker"
+        },
+        {
+          "date": "2026-08-14",
+          "url": "https://fbx.freightos.com/",
+          "source": "FBX ticker"
+        }
+      ],
+      "reportCount": 16
     }
   },
   "pendingReadings": [
     {
-      "date": "2026-08-04",
-      "source": "FBX ticker",
-      "url": "https://fbx.freightos.com/",
-      "title": "Freightos Baltic Index",
-      "values": {
-        "west_coast": 6129,
-        "east_coast": 9012,
-        "north_europe": 5531
-      }
-    },
-    {
-      "date": "2026-08-05",
-      "source": "FBX ticker",
-      "url": "https://fbx.freightos.com/",
-      "title": "Freightos Baltic Index",
-      "values": {
-        "west_coast": 6129,
-        "east_coast": 9012,
-        "north_europe": 5531
-      }
-    },
-    {
-      "date": "2026-08-07",
-      "source": "FBX ticker",
-      "url": "https://fbx.freightos.com/",
-      "title": "Freightos Baltic Index",
-      "values": {
-        "west_coast": 6129,
-        "east_coast": 9012,
-        "north_europe": 5531
-      }
-    },
-    {
-      "date": "2026-08-07",
-      "source": "Freightos Weekly Update",
-      "title": "Transpac peak may stretch on even as Asia – Europe ocean cools – August 6, 2026 Update",
-      "url": "https://www.freightos.com/freight-resources/transpac-peak-may-stretch-on-even-as-asia-europe-ocean-cools-august-7-2026-update/",
-      "values": {
-        "air_cn_us": 5.67,
-        "air_cn_eu": 4.02
-      }
-    },
-    {
-      "date": "2026-08-10",
-      "source": "FBX ticker",
-      "url": "https://fbx.freightos.com/",
-      "title": "Freightos Baltic Index",
-      "values": {
-        "west_coast": 6826,
-        "east_coast": 9144,
-        "north_europe": 5085
-      }
-    },
-    {
-      "date": "2026-08-11",
-      "source": "Freightos Weekly Update",
-      "title": "Hormuz hopes dashed; Asia – Europe and transpac ocean rates diverge on extended US peak – August 11, 2026 Update",
-      "url": "https://www.freightos.com/freight-resources/hormuz-hopes-dashed-asia-europe-and-transpac-ocean-rates-diverge-on-extended-us-peak-august-11-2026-update/",
-      "values": {
-        "air_cn_us": 6.0,
-        "air_cn_eu": 4.11
-      }
-    },
-    {
-      "date": "2026-08-12",
-      "source": "FBX ticker",
-      "url": "https://fbx.freightos.com/",
-      "title": "Freightos Baltic Index",
-      "values": {
-        "west_coast": 6826,
-        "east_coast": 9144,
-        "north_europe": 5085
-      }
-    },
-    {
-      "date": "2026-08-14",
-      "source": "FBX ticker",
-      "url": "https://fbx.freightos.com/",
-      "title": "Freightos Baltic Index",
-      "values": {
-        "west_coast": 6826,
-        "east_coast": 9144,
-        "north_europe": 5085
-      }
-    },
-    {
-      "date": "2026-08-17",
-      "source": "FBX ticker",
-      "url": "https://fbx.freightos.com/",
-      "title": "Freightos Baltic Index",
-      "values": {
-        "west_coast": 7422,
-        "east_coast": 9422,
-        "north_europe": 5009
-      }
-    },
-    {
-      "date": "2026-08-19",
-      "source": "FBX ticker",
-      "url": "https://fbx.freightos.com/",
-      "title": "Freightos Baltic Index",
-      "values": {
-        "west_coast": 7422,
-        "east_coast": 9422,
-        "north_europe": 5009
-      }
-    },
-    {
-      "date": "2026-08-19",
-      "source": "Freightos Weekly Update",
-      "title": "Congestion playing a bigger role in container rates – August 18, 2026 Update",
-      "url": "https://www.freightos.com/freight-resources/congestion-playing-a-bigger-role-in-container-rates-august-18-2026-update/",
-      "values": {
-        "air_cn_us": 6.5,
-        "air_cn_eu": 4.45
-      }
-    },
-    {
-      "date": "2026-08-21",
-      "source": "FBX ticker",
-      "url": "https://fbx.freightos.com/",
-      "title": "Freightos Baltic Index",
-      "values": {
-        "west_coast": 7422,
-        "east_coast": 9422,
-        "north_europe": 5009
-      }
-    },
-    {
-      "date": "2026-08-24",
-      "source": "FBX ticker",
-      "url": "https://fbx.freightos.com/",
-      "title": "Freightos Baltic Index",
-      "values": {
-        "west_coast": 7491,
-        "east_coast": 9576,
-        "north_europe": 4699
-      }
-    },
-    {
-      "date": "2026-08-26",
-      "source": "FBX ticker",
-      "url": "https://fbx.freightos.com/",
-      "title": "Freightos Baltic Index",
-      "values": {
-        "west_coast": 7491,
-        "east_coast": 9576,
-        "north_europe": 4699
-      }
-    },
-    {
-      "date": "2026-08-28",
-      "source": "FBX ticker",
-      "url": "https://fbx.freightos.com/",
-      "title": "Freightos Baltic Index",
-      "values": {
-        "west_coast": 7491,
-        "east_coast": 9576,
-        "north_europe": 4699
-      }
-    },
-    {
-      "date": "2026-08-31",
+      "date": "2026-09-01",
       "source": "FBX ticker",
       "url": "https://fbx.freightos.com/",
       "title": "Freightos Baltic Index",
