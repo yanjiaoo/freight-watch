@@ -5,11 +5,11 @@
     "date": "2026-08-31",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "Drewry WCI pauses upward trend on lower rates on different routes  Fibre2Fashion",
-    "source": "Fibre2Fashion",
+    "summary": "Drewry WCI pauses upward trend on lower rates on different routes  fibre2fashion.com",
+    "source": "fibre2fashion.com",
     "links": [
       {
-        "label": "Fibre2Fashion",
+        "label": "fibre2fashion.com",
         "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbXprT0IyU0VIalk0end0Zm9XbGlOenBBNnk2WjV4dXBodmZBdHBKWVFiZWFFeFlMRTUtQmplbXVVQS1taHYxMFA1VV9PWVNmSjJBQlN0OG1FTFVrN2doY2E4b0ExcHNfVHBVUWpBTVR5dUdXRTJtOFY0VTlvaDVUNDRVTnMxY2UyQXdPSlVkQVFQcGJ4cExVNUNZa2xTWEE0a0lHYkpwVEl6alVtU3ZuUlJpUlA3NUl1LWRkMGF2TlZaTzJxVVRBb25qZUNzSDZXeEE?oc=5"
       }
     ]
@@ -20,47 +20,32 @@
     "date": "2026-08-14",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "News Shipping disruption sees 'rate increase fire' spread from spots to contracts  theloadstar.com",
-    "source": "theloadstar.com",
+    "summary": "News Shipping disruption sees 'rate increase fire' spread from spots to contracts  The Loadstar",
+    "source": "The Loadstar",
     "links": [
       {
-        "label": "theloadstar.com",
+        "label": "The Loadstar",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdDdRNUtUM1l4ZnRiSmNGamlIRTctZERCcTltamFpQ2l1OTBQV001dEVucV9TTVZkNGRremplU2Rxd3J5NHV5MVBZdFRrMTg1TFctS0hMNHZ0S2tEYl9zc2lPS2dpRXJZSXR3aHYzbC10LXVzREV3LTBEcXVxRHEyRzlqRXg1VGRHVDNmVzNwUGdyaXo0aFRaOVZoeHp0YXNa?oc=5"
       }
     ]
   },
   {
     "id": "fw_auto_003",
-    "title": "Asia to US East Coast ocean rates rise to new high",
-    "date": "2026-08-12",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "Asia to US East Coast ocean rates rise to new high  supplychaindive.com",
-    "source": "supplychaindive.com",
-    "links": [
-      {
-        "label": "supplychaindive.com",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcTJmbkMtWmE1UkNjZEJhSXIyaVU0TXZueGl6WVBxTkg4U1NLdFdEdlBCalRjenVKU3VvRXdRc3F6aDNtLWVjMXBMcEVxSndxVkxaU1dWSW5xNlFoelB6aUo3cWRLODhwMi0wRUNVZXFxZGh5WE5LNHB1WENrbGxPbktWaUJFejM0c05ZYTZIc05WRVBjR1lKMDlYUQ?oc=5"
-      }
-    ]
-  },
-  {
-    "id": "fw_auto_004",
     "title": "Shipping costs bounce back as US routes heat up",
     "date": "2026-08-10",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "Shipping costs bounce back as US routes heat up  InteriorDaily",
-    "source": "InteriorDaily",
+    "summary": "Shipping costs bounce back as US routes heat up  Interior Daily",
+    "source": "Interior Daily",
     "links": [
       {
-        "label": "InteriorDaily",
+        "label": "Interior Daily",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeWR0SGpadTRpZEh4UENhZzI0RXRHY2lJT0JpMU42QlhmMTg4YXZKMWZ3Qno3cHBLM3J1UVVaczVQR3lPVjNGRVdGUnQwZ0dBRkhldWpyMkNmX1F5R3dKaEEzVWNQeDB6b0tTbk1BQl8tNkxFSDZZMFZic1J2UUxXMGVMUjVETjB3VTQ4MjJnbWU5dFd4QkJpY0dR?oc=5"
       }
     ]
   },
   {
-    "id": "fw_auto_005",
+    "id": "fw_auto_004",
     "title": "FCLGO Launches Amazon Fulfillment Center Locations Routing Service to Eliminate FBA Compliance Rejections for Cross-Border Sellers",
     "date": "2026-08-02",
     "route": "",
@@ -75,7 +60,7 @@
     ]
   },
   {
-    "id": "fw_auto_006",
+    "id": "fw_auto_005",
     "title": "Hormuz closure pushing fuel costs back up – July 14, 2026 Update",
     "date": "2026-07-14",
     "route": "",
@@ -90,32 +75,47 @@
     ]
   },
   {
-    "id": "fw_auto_007",
-    "title": "Container rates jump another $1k/FEU – but is demand peaking? – July 8, 2026 Update",
-    "date": "2026-07-09",
+    "id": "fw_auto_006",
+    "title": "Ocean rates steady as shippers brace for July hikes – June 30, 2026 Update",
+    "date": "2026-06-30",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "Container rates jump another $1k/FEU – but is demand peaking? – July 8, 2026 Update  Freightos",
+    "summary": "Ocean rates steady as shippers brace for July hikes – June 30, 2026 Update  Freightos",
     "source": "Freightos",
     "links": [
       {
         "label": "Freightos",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTVJFSmpBM29na0tCSmdFbXVwMFg5OFBqbzNKd24xUmJCeHBlNUFIV0k4eHcyTEtPdnlzbGM2MzlvU0xieW80LWtpQV90ZXJ6cmVpQ2dmZU12UXR6c0ZYMDFMQkNpb0RLTDAwRWpUdC05ajZPcTItRUx2dF9uZEUtV2tjY1NQa2Y1VVpGeHRtSWI1MGRmUFhJTEw2bmZuUk00VzNyWkl2elFYWER4NjlDOGRKNTI5RWo5VDEyaGxB?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNY0phQVlOSDV5N1VVX21sdXNVTEM3QlhnSVFsSHlUVWtJLURTMFp0NXUtc1VNWXdmUUgwVjZuc25lOERjY1dCaFRlT0R4WEgwaS1uaHZFN1VoZE0xMVUxazhDMnBXc0lXVUZlWVVSb2pVeGdUdGRUeTRIUkRldWdLRmZPczdOMHJIaDlWcDNvRlBIUFFVN0NOMUZqUlJqNU1pOG11VmduXzNiWTRpelNyNW5QM0Y2RmM?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_007",
+    "title": "Ocean rates climb again even as fuel costs ease – June 23, 2026 Update",
+    "date": "2026-06-25",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Ocean rates climb again even as fuel costs ease – June 23, 2026 Update  Freightos",
+    "source": "Freightos",
+    "links": [
+      {
+        "label": "Freightos",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOenkzTndiRk00Tzh3NjB2bXJnLU1TQ0ltVUxReE5pQVNmYmplRGNEYUZmZnIzMEIwcWJ1aV9Pamg3ZF9xNE1zbWJTOGJSWGQ4VkNDZ01YemlmT2ZUa25TQWVWQ0VXU2tSRm1yZk9OS2JCb2dHRkk0UThPX0hsaGE5ZGt5Qzk3SzJwMlUzS1VQVldORGhRU1lRYlZBVmMyX1YzOUlZOTdIOTRpY2lnMmIzMXVB?oc=5"
       }
     ]
   },
   {
     "id": "fw_auto_008",
-    "title": "Transpacific ocean rates fueled by early peak, frontloading",
-    "date": "2026-07-07",
+    "title": "Ocean rates climbing, with more increases expected soon – June 9, 2026 Update",
+    "date": "2026-06-12",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "Transpacific ocean rates fueled by early peak, frontloading  supplychaindive.com",
-    "source": "supplychaindive.com",
+    "summary": "Ocean rates climbing, with more increases expected soon – June 9, 2026 Update  Freightos",
+    "source": "Freightos",
     "links": [
       {
-        "label": "supplychaindive.com",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZHZOa04xcE5ocVpsYWlvU2tuOUU5dkozQ3d6V2w4UHNTdXNPSklvQkdhczhoUDNpbXNabjNscWlRRnVjX0p0c1NjcU53amFGa2YxSC1LbVRSMk9MOFo3NlFGLWlDanA4dHhYay1lWDd0YnJCaVowOHpqV3NTWEt5ZzJUNkZkWXp2NDdKczRtdWNyT2pvZldoaDhlZkdCRHFENF9pYjZR?oc=5"
+        "label": "Freightos",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPal83WW5xb0dxTXVxUURQS2FmR2RuYXNDVmU2dHRQSTdPVENjNWpBQmZ3Y2pnX29aSzdrbEZDUkViYnQwb2lLenJQdVVsdTEyUWdSSjJkQkJmRFdub2Y3SjdYd2pLOVoxQVJtUWl4TE5ISWxwS0ZlNWx2QlR2SXRtaWpNTDM1QXNtcDQtWVlySW0yQ2tJTEJ2MXZ2TW15QkswejVqWTB0SHdDSFFRUlVFUjZJSktpSGw2V0E?oc=5"
       }
     ]
   }
