@@ -1,6 +1,21 @@
 [
   {
     "id": "fw_auto_001",
+    "title": "[Freightos Weekly Update] Asia - Med rates back to pre-peak levels as Red Sea transits increase",
+    "date": "2026-09-24",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "[Freightos Weekly Update] Asia - Med rates back to pre-peak levels as Red Sea transits increase  ajot.com",
+    "source": "ajot.com",
+    "links": [
+      {
+        "label": "ajot.com",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQlVXM2dOR3k5OFRwQUNXVUxsN2lIWEdCRFBWRFN2SGVMeUtNY21CWWc3YURERVdSNFllUElESGtfMV8yejdvWVo0akRpdGtvU2xobjhlejF1c3BZX21OXzZYQjVjLU10N2VyYmdSbUpYUGNpUktMa0NwOWV3QWNrZWg3aUVtQWhJVXpBWW13YmpkcEczNXJ1d0dMSGdOZTc4YjhBZmx6NDdHc2RZZldfZVlKSDRpbzJY?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_002",
     "title": "Ocean container shipping rates could test record highs as Iran war fuel spike drives rise, analysts say",
     "date": "2026-09-17",
     "route": "",
@@ -15,7 +30,7 @@
     ]
   },
   {
-    "id": "fw_auto_002",
+    "id": "fw_auto_003",
     "title": "Drewry WCI remains stable amid divergent freight movements",
     "date": "2026-09-11",
     "route": "",
@@ -30,7 +45,7 @@
     ]
   },
   {
-    "id": "fw_auto_003",
+    "id": "fw_auto_004",
     "title": "AEB Logistics Expands China-to-USA Door-to-Door Freight Forwarding Services",
     "date": "2026-09-03",
     "route": "",
@@ -45,7 +60,7 @@
     ]
   },
   {
-    "id": "fw_auto_004",
+    "id": "fw_auto_005",
     "title": "Drewry index edges lower on decline in trans-Pacific rates",
     "date": "2026-08-27",
     "route": "",
@@ -60,7 +75,7 @@
     ]
   },
   {
-    "id": "fw_auto_005",
+    "id": "fw_auto_006",
     "title": "FCLGO Launches Amazon Fulfillment Center Locations Routing Service to Eliminate FBA Compliance Rejections for Cross-Border Sellers",
     "date": "2026-08-02",
     "route": "",
@@ -75,7 +90,7 @@
     ]
   },
   {
-    "id": "fw_auto_006",
+    "id": "fw_auto_007",
     "title": "Freight rate update for July 29th – July 29, 2026 Update",
     "date": "2026-07-29",
     "route": "",
@@ -90,7 +105,7 @@
     ]
   },
   {
-    "id": "fw_auto_007",
+    "id": "fw_auto_008",
     "title": "Container rates jump another $1k/FEU – but is demand peaking? – July 8, 2026 Update",
     "date": "2026-07-09",
     "route": "",
@@ -101,21 +116,6 @@
       {
         "label": "Freightos",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTVJFSmpBM29na0tCSmdFbXVwMFg5OFBqbzNKd24xUmJCeHBlNUFIV0k4eHcyTEtPdnlzbGM2MzlvU0xieW80LWtpQV90ZXJ6cmVpQ2dmZU12UXR6c0ZYMDFMQkNpb0RLTDAwRWpUdC05ajZPcTItRUx2dF9uZEUtV2tjY1NQa2Y1VVpGeHRtSWI1MGRmUFhJTEw2bmZuUk00VzNyWkl2elFYWER4NjlDOGRKNTI5RWo5VDEyaGxB?oc=5"
-      }
-    ]
-  },
-  {
-    "id": "fw_auto_008",
-    "title": "Ocean rates climb again even as fuel costs ease – June 23, 2026 Update",
-    "date": "2026-06-25",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "Ocean rates climb again even as fuel costs ease – June 23, 2026 Update  Freightos",
-    "source": "Freightos",
-    "links": [
-      {
-        "label": "Freightos",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOenkzTndiRk00Tzh3NjB2bXJnLU1TQ0ltVUxReE5pQVNmYmplRGNEYUZmZnIzMEIwcWJ1aV9Pamg3ZF9xNE1zbWJTOGJSWGQ4VkNDZ01YemlmT2ZUa25TQWVWQ0VXU2tSRm1yZk9OS2JCb2dHRkk0UThPX0hsaGE5ZGt5Qzk3SzJwMlUzS1VQVldORGhRU1lRYlZBVmMyX1YzOUlZOTdIOTRpY2lnMmIzMXVB?oc=5"
       }
     ]
   }
