@@ -20,11 +20,11 @@
     "date": "2026-09-22",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "Asia - Med rates back to pre-peak levels as Red Sea transits increase - September 22, 2026 Update  freightos.com",
-    "source": "freightos.com",
+    "summary": "Asia - Med rates back to pre-peak levels as Red Sea transits increase - September 22, 2026 Update  Freightos",
+    "source": "Freightos",
     "links": [
       {
-        "label": "freightos.com",
+        "label": "Freightos",
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTG1vUGZaVXNwbmRGdGx0bmhFNlNEb0l5Vzd2Y3Q1MzNyLWdxSkluamJpRnhiVTRkUmZTVE9BR3Q2R3FIdFBBMlRUcUZfRGdmZEFjbEF0VHJPM19EQzNjbzZNYWQtYjNGUzlyUDhTTENINHZxajk1aU9jQWtaZGRKeXkwYWM4alBKUWtBTnhTUnRITkRGalN1dXg5ZEt1S254RHBMYkdXMVF4YVpIUmV5b1BtQW9jM1Z2dkx5Z2JsVWFUUm1fMDNrTURraXRJLTNYNld3?oc=5"
       }
     ]
@@ -35,11 +35,11 @@
     "date": "2026-09-17",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "Ocean container shipping rates could test record highs as Iran war fuel spike drives rise, analysts say  The Mighty 790 KFGO",
-    "source": "The Mighty 790 KFGO",
+    "summary": "Ocean container shipping rates could test record highs as Iran war fuel spike drives rise, analysts say  kfgo.com",
+    "source": "kfgo.com",
     "links": [
       {
-        "label": "The Mighty 790 KFGO",
+        "label": "kfgo.com",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRkIxYU1wT1phTHFjM1dFaHdhSUdvbnJ1ek9XMmZVUEpsNkQ1dDJwcDFwMUdmTWJocWhBZWJybWdHNVVxVm9laWExYTJ3VkRVY2NvSmcxWHhyc2ppQUJCVUktenlnVnNhUzdkOV9hSFB4VWk2SlE3RFhSRjlNRkFxVkREYjdQemhIUlRRNWNOSnpUTmZIZVU4Wl9rd1BvQk5RUl9xS0NROHFRQWI3S19OaGhobkdteWZYRVpWLWlYTFFvZHRULXBBa256SQ?oc=5"
       }
     ]
@@ -76,6 +76,21 @@
   },
   {
     "id": "fw_auto_006",
+    "title": "News Shipping disruption sees 'rate increase fire' spread from spots to contracts",
+    "date": "2026-08-14",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "News Shipping disruption sees 'rate increase fire' spread from spots to contracts  The Loadstar",
+    "source": "The Loadstar",
+    "links": [
+      {
+        "label": "The Loadstar",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdDdRNUtUM1l4ZnRiSmNGamlIRTctZERCcTltamFpQ2l1OTBQV001dEVucV9TTVZkNGRremplU2Rxd3J5NHV5MVBZdFRrMTg1TFctS0hMNHZ0S2tEYl9zc2lPS2dpRXJZSXR3aHYzbC10LXVzREV3LTBEcXVxRHEyRzlqRXg1VGRHVDNmVzNwUGdyaXo0aFRaOVZoeHp0YXNa?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_007",
     "title": "FCLGO Launches Amazon Fulfillment Center Locations Routing Service to Eliminate FBA Compliance Rejections for Cross-Border Sellers",
     "date": "2026-08-02",
     "route": "",
@@ -90,32 +105,17 @@
     ]
   },
   {
-    "id": "fw_auto_007",
+    "id": "fw_auto_008",
     "title": "Freight rate update for July 29th – July 29, 2026 Update",
     "date": "2026-07-29",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "Freight rate update for July 29th – July 29, 2026 Update  freightos.com",
-    "source": "freightos.com",
+    "summary": "Freight rate update for July 29th – July 29, 2026 Update  Freightos",
+    "source": "Freightos",
     "links": [
       {
-        "label": "freightos.com",
+        "label": "Freightos",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONDRmUGJfYXRxSU4wY2hvdXNLTWItYXh5VVZlZFVDU3Z4S2JVS0l5b2NZd0pvcGRrOG1mNExDbkRIVXNDYkU4Q0RGaVlBSnl6QmJRTFl6LUF2ZTNvdXVJWE5uQWY4Wi1VbHl6US1BNW5JNm1YeC1oNFRRSWNlN0V5a3E5eFc1UHBVNmRYWkVPbzhtZV9Jc1ZKaFNFdDVCSGc?oc=5"
-      }
-    ]
-  },
-  {
-    "id": "fw_auto_008",
-    "title": "Container rates jump another $1k/FEU – but is demand peaking? – July 8, 2026 Update",
-    "date": "2026-07-09",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "Container rates jump another $1k/FEU – but is demand peaking? – July 8, 2026 Update  freightos.com",
-    "source": "freightos.com",
-    "links": [
-      {
-        "label": "freightos.com",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTVJFSmpBM29na0tCSmdFbXVwMFg5OFBqbzNKd24xUmJCeHBlNUFIV0k4eHcyTEtPdnlzbGM2MzlvU0xieW80LWtpQV90ZXJ6cmVpQ2dmZU12UXR6c0ZYMDFMQkNpb0RLTDAwRWpUdC05ajZPcTItRUx2dF9uZEUtV2tjY1NQa2Y1VVpGeHRtSWI1MGRmUFhJTEw2bmZuUk00VzNyWkl2elFYWER4NjlDOGRKNTI5RWo5VDEyaGxB?oc=5"
       }
     ]
   }
