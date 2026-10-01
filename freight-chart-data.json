@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30",
+  "lastUpdated": "2026-10-01",
   "dataSource": "海运 Freightos Baltic Index (FBX)：https://fbx.freightos.com/ ；空运 Freightos Air Index：Freightos 官方周报 https://www.freightos.com/freight-resources/",
   "note": "海运为 Freightos Baltic Index (FBX) 即期运价($/FEU 40尺柜)，空运为 Freightos Air Index($/kg)，原油为 EIA 官方月度现货均价($/桶)。所有数值均可溯源到原始发布方，月度值为该月各期读数的算术平均，用了哪几期见 monthlySources。无法核实的数据不予收录；缺读数的月份为 null，不插值、不推算。",
   "months": [
@@ -22,7 +22,8 @@
     "2026-05",
     "2026-06",
     "2026-07",
-    "2026-08"
+    "2026-08",
+    "2026-09"
   ],
   "routes": {
     "中国→美西 (FBX01)": {
@@ -46,7 +47,8 @@
         2828,
         5950,
         6212,
-        7017
+        7017,
+        7860
       ],
       "air_per_kg": [
         5.73,
@@ -68,7 +70,8 @@
         6.16,
         6.4,
         6.16,
-        6.06
+        6.06,
+        6.5
       ]
     },
     "中国→美东 (FBX03)": {
@@ -92,7 +95,8 @@
         4340,
         7700,
         9002,
-        9327
+        9327,
+        9665
       ],
       "air_per_kg": [
         5.73,
@@ -114,7 +118,8 @@
         6.16,
         6.4,
         6.16,
-        6.06
+        6.06,
+        6.5
       ]
     },
     "中国→北欧 (FBX11)": {
@@ -138,7 +143,8 @@
         2500,
         4800,
         5575,
-        5047
+        5047,
+        4181
       ],
       "air_per_kg": [
         3.35,
@@ -160,7 +166,8 @@
         null,
         4.59,
         4.03,
-        4.19
+        4.19,
+        null
       ]
     }
   },
@@ -185,7 +192,8 @@
       107.14,
       85.4,
       83.76,
-      91.08
+      91.08,
+      null
     ],
     "wti": [
       75.74,
@@ -207,12 +215,13 @@
       102.13,
       84.81,
       80.46,
-      83.9
+      83.9,
+      null
     ],
     "unit": "$/barrel",
     "source": "EIA 美国能源信息署官方月度现货均价 — Brent: RBRTE https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=M ；WTI: RWTC https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RWTC&f=M",
     "note": "EIA 通常滞后约1个月发布，未发布的月份为 null，不做推算。",
-    "lastFetched": "2026-09-30"
+    "lastFetched": "2026-10-01"
   },
   "monthlySources": {
     "2026-06": {
@@ -641,141 +650,57 @@
         }
       ],
       "reportCount": 16
+    },
+    "2026-09": {
+      "method": "13 期读数算术平均",
+      "reports": [
+        {
+          "date": "2026-09-01",
+          "url": "https://fbx.freightos.com/",
+          "source": "FBX ticker"
+        },
+        {
+          "date": "2026-09-02",
+          "url": "https://fbx.freightos.com/",
+          "source": "FBX ticker"
+        },
+        {
+          "date": "2026-09-04",
+          "url": "https://fbx.freightos.com/",
+          "source": "FBX ticker"
+        },
+        {
+          "date": "2026-09-07",
+          "url": "https://fbx.freightos.com/",
+          "source": "FBX ticker"
+        },
+        {
+          "date": "2026-09-11",
+          "url": "https://fbx.freightos.com/",
+          "source": "FBX ticker"
+        },
+        {
+          "date": "2026-09-14",
+          "url": "https://fbx.freightos.com/",
+          "source": "FBX ticker"
+        },
+        {
+          "date": "2026-09-16",
+          "url": "https://fbx.freightos.com/",
+          "source": "FBX ticker"
+        },
+        {
+          "date": "2026-09-18",
+          "url": "https://fbx.freightos.com/",
+          "source": "FBX ticker"
+        }
+      ],
+      "reportCount": 13
     }
   },
   "pendingReadings": [
     {
-      "date": "2026-09-01",
-      "source": "FBX ticker",
-      "url": "https://fbx.freightos.com/",
-      "title": "Freightos Baltic Index",
-      "values": {
-        "west_coast": 7621,
-        "east_coast": 9791,
-        "north_europe": 4641
-      }
-    },
-    {
-      "date": "2026-09-02",
-      "source": "FBX ticker",
-      "url": "https://fbx.freightos.com/",
-      "title": "Freightos Baltic Index",
-      "values": {
-        "west_coast": 7621,
-        "east_coast": 9791,
-        "north_europe": 4641
-      }
-    },
-    {
-      "date": "2026-09-04",
-      "source": "FBX ticker",
-      "url": "https://fbx.freightos.com/",
-      "title": "Freightos Baltic Index",
-      "values": {
-        "west_coast": 7621,
-        "east_coast": 9791,
-        "north_europe": 4641
-      }
-    },
-    {
-      "date": "2026-09-07",
-      "source": "FBX ticker",
-      "url": "https://fbx.freightos.com/",
-      "title": "Freightos Baltic Index",
-      "values": {
-        "west_coast": 7569,
-        "east_coast": 9505,
-        "north_europe": 4499
-      }
-    },
-    {
-      "date": "2026-09-11",
-      "source": "FBX ticker",
-      "url": "https://fbx.freightos.com/",
-      "title": "Freightos Baltic Index",
-      "values": {
-        "west_coast": 7569,
-        "east_coast": 9505,
-        "north_europe": 4499
-      }
-    },
-    {
-      "date": "2026-09-14",
-      "source": "FBX ticker",
-      "url": "https://fbx.freightos.com/",
-      "title": "Freightos Baltic Index",
-      "values": {
-        "west_coast": 7765,
-        "east_coast": 9724,
-        "north_europe": 4366
-      }
-    },
-    {
-      "date": "2026-09-16",
-      "source": "FBX ticker",
-      "url": "https://fbx.freightos.com/",
-      "title": "Freightos Baltic Index",
-      "values": {
-        "west_coast": 7765,
-        "east_coast": 9724,
-        "north_europe": 4366
-      }
-    },
-    {
-      "date": "2026-09-18",
-      "source": "FBX ticker",
-      "url": "https://fbx.freightos.com/",
-      "title": "Freightos Baltic Index",
-      "values": {
-        "west_coast": 7765,
-        "east_coast": 9724,
-        "north_europe": 4366
-      }
-    },
-    {
-      "date": "2026-09-21",
-      "source": "FBX ticker",
-      "url": "https://fbx.freightos.com/",
-      "title": "Freightos Baltic Index",
-      "values": {
-        "west_coast": 8102,
-        "east_coast": 9606,
-        "north_europe": 3702
-      }
-    },
-    {
-      "date": "2026-09-22",
-      "source": "Freightos Weekly Update",
-      "title": " Asia – Med rates back to pre-peak levels as Red Sea transits increase – September 22, 2026 Update",
-      "url": "https://www.freightos.com/freight-resources/asia-med-rates-back-to-pre-peak-levels-as-red-sea-transits-increase-september-22-2026-update/",
-      "values": {
-        "air_cn_us": 6.5
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "source": "FBX ticker",
-      "url": "https://fbx.freightos.com/",
-      "title": "Freightos Baltic Index",
-      "values": {
-        "west_coast": 8102,
-        "east_coast": 9606,
-        "north_europe": 3702
-      }
-    },
-    {
-      "date": "2026-09-28",
-      "source": "FBX ticker",
-      "url": "https://fbx.freightos.com/",
-      "title": "Freightos Baltic Index",
-      "values": {
-        "west_coast": 8411,
-        "east_coast": 9606,
-        "north_europe": 3376
-      }
-    },
-    {
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "source": "FBX ticker",
       "url": "https://fbx.freightos.com/",
       "title": "Freightos Baltic Index",
