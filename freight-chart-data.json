@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-05",
+  "lastUpdated": "2026-10-07",
   "dataSource": "海运 Freightos Baltic Index (FBX)：https://fbx.freightos.com/ ；空运 Freightos Air Index：Freightos 官方周报 https://www.freightos.com/freight-resources/",
   "note": "海运为 Freightos Baltic Index (FBX) 即期运价($/FEU 40尺柜)，空运为 Freightos Air Index($/kg)，原油为 EIA 官方月度现货均价($/桶)。所有数值均可溯源到原始发布方，月度值为该月各期读数的算术平均，用了哪几期见 monthlySources。无法核实的数据不予收录；缺读数的月份为 null，不插值、不推算。",
   "months": [
@@ -723,6 +723,17 @@
     },
     {
       "date": "2026-10-05",
+      "source": "FBX ticker",
+      "url": "https://fbx.freightos.com/",
+      "title": "Freightos Baltic Index",
+      "values": {
+        "west_coast": 8322,
+        "east_coast": 9606,
+        "north_europe": 3260
+      }
+    },
+    {
+      "date": "2026-10-07",
       "source": "FBX ticker",
       "url": "https://fbx.freightos.com/",
       "title": "Freightos Baltic Index",
