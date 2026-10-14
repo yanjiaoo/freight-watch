@@ -1,6 +1,21 @@
 [
   {
     "id": "fw_auto_001",
+    "title": "[Freightos Weekly Update] Attacks disrupt Saudi air cargo; China-Europe air rates slump",
+    "date": "2026-10-13",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "[Freightos Weekly Update] Attacks disrupt Saudi air cargo; China-Europe air rates slump  American Journal of Transportation",
+    "source": "American Journal of Transportation",
+    "links": [
+      {
+        "label": "American Journal of Transportation",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUjhySkhZbTNfbG1RSVRjVEo1bG4wQnVXa003a3M3VmFTa2EwdUVuMEcyanVQQ0FzRW9ka0RsVHJaUFB4dGpHVm9PV3FhdU5RSlBQaXVwbnN1YWF0Y2VnNmI2VGdEZHo2T3hQTndpeFdWRTZFQUZRT05EeG9qTk92cjdhVXpMNUxsX3NQbnQ3UG5XQXF1NlhNR1RhSEEybTBzX3pSNE9HY2x1YkRzbW5r?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_002",
     "title": "Drewry WCI declines as Asia-Europe freight rates extend fall",
     "date": "2026-10-05",
     "route": "",
@@ -15,7 +30,7 @@
     ]
   },
   {
-    "id": "fw_auto_002",
+    "id": "fw_auto_003",
     "title": "Ocean container shipping rates could test record highs as Iran war fuel spike drives rise, analysts say",
     "date": "2026-09-17",
     "route": "",
@@ -30,7 +45,7 @@
     ]
   },
   {
-    "id": "fw_auto_003",
+    "id": "fw_auto_004",
     "title": "Drewry index edges lower on decline in trans-Pacific rates",
     "date": "2026-08-27",
     "route": "",
@@ -45,7 +60,7 @@
     ]
   },
   {
-    "id": "fw_auto_004",
+    "id": "fw_auto_005",
     "title": "Congestion playing a bigger role in container rates – August 18, 2026 Update",
     "date": "2026-08-19",
     "route": "",
@@ -60,7 +75,7 @@
     ]
   },
   {
-    "id": "fw_auto_005",
+    "id": "fw_auto_006",
     "title": "Drewry WCI rises for second week as Transpacific rates climb",
     "date": "2026-08-15",
     "route": "",
@@ -75,7 +90,7 @@
     ]
   },
   {
-    "id": "fw_auto_006",
+    "id": "fw_auto_007",
     "title": "Shipping From China to Africa: A Complete Guide for Online Sellers [2026]",
     "date": "2026-08-07",
     "route": "",
@@ -90,7 +105,7 @@
     ]
   },
   {
-    "id": "fw_auto_007",
+    "id": "fw_auto_008",
     "title": "Freight rate update for July 29th – July 29, 2026 Update",
     "date": "2026-07-29",
     "route": "",
@@ -101,21 +116,6 @@
       {
         "label": "Freightos",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONDRmUGJfYXRxSU4wY2hvdXNLTWItYXh5VVZlZFVDU3Z4S2JVS0l5b2NZd0pvcGRrOG1mNExDbkRIVXNDYkU4Q0RGaVlBSnl6QmJRTFl6LUF2ZTNvdXVJWE5uQWY4Wi1VbHl6US1BNW5JNm1YeC1oNFRRSWNlN0V5a3E5eFc1UHBVNmRYWkVPbzhtZV9Jc1ZKaFNFdDVCSGc?oc=5"
-      }
-    ]
-  },
-  {
-    "id": "fw_auto_008",
-    "title": "Container rates jump another $1k/FEU – but is demand peaking? – July 8, 2026 Update",
-    "date": "2026-07-09",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "Container rates jump another $1k/FEU – but is demand peaking? – July 8, 2026 Update  Freightos",
-    "source": "Freightos",
-    "links": [
-      {
-        "label": "Freightos",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTVJFSmpBM29na0tCSmdFbXVwMFg5OFBqbzNKd24xUmJCeHBlNUFIV0k4eHcyTEtPdnlzbGM2MzlvU0xieW80LWtpQV90ZXJ6cmVpQ2dmZU12UXR6c0ZYMDFMQkNpb0RLTDAwRWpUdC05ajZPcTItRUx2dF9uZEUtV2tjY1NQa2Y1VVpGeHRtSWI1MGRmUFhJTEw2bmZuUk00VzNyWkl2elFYWER4NjlDOGRKNTI5RWo5VDEyaGxB?oc=5"
       }
     ]
   }
