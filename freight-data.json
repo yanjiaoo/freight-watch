@@ -1,6 +1,21 @@
 [
   {
     "id": "fw_auto_001",
+    "title": "Drewry WCI rebounds 3.1% as Asia-Europe freight rates rise",
+    "date": "2026-10-16",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Drewry WCI rebounds 3.1% as Asia-Europe freight rates rise  Fibre2Fashion",
+    "source": "Fibre2Fashion",
+    "links": [
+      {
+        "label": "Fibre2Fashion",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYzNkd016LXlqZ3RzQTNsYUc2a0F3Q05fVzdnQk04MzBBOElFcm1DQWVTa3BKY3JQS3Z2SmU2M0FubGtEMWE3ckZaYkt5OTNGcXVfTHlfZVB3alNKQ1ktUHZHbi1PbWplSG9mbU0xM2s1ajdpOExhcHhJaEJfVUtEcEtZbW52VWRfcXpsVVhCMk5iMm9fTlQtNjhIelh0TTBQNEptWmk4Y25yZmNjWHJTMVFNbVV0ams1ZUtnZkFhaTdSX01XN3o4?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_002",
     "title": "[Freightos Weekly Update] Attacks disrupt Saudi air cargo; China-Europe air rates slump",
     "date": "2026-10-13",
     "route": "",
@@ -15,22 +30,67 @@
     ]
   },
   {
-    "id": "fw_auto_002",
-    "title": "Drewry WCI declines as Asia-Europe freight rates extend fall",
-    "date": "2026-10-05",
+    "id": "fw_auto_003",
+    "title": "Amazon adds two new China airfreight service offerings",
+    "date": "2026-10-09",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "Drewry WCI declines as Asia-Europe freight rates extend fall  Fibre2Fashion",
-    "source": "Fibre2Fashion",
+    "summary": "Amazon adds two new China airfreight service offerings  Air Cargo News",
+    "source": "Air Cargo News",
     "links": [
       {
-        "label": "Fibre2Fashion",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWkZoWGo3M1BvQzBzTE85eVVWeENQMWZYMzlycF80UXRMV0E1R2Q5YkcwSVpJSXV3b2RROVhiUTZjOS1CWHRFYWhiVk5OTm1SbFVDVVZwM1piZ2g0bS1pTHhLbW95T3Q3RHFzY0c2amJlYjhRSWVDY1E1ckZCcUM3Tm1KS2ZGb09tZ3lmb0dZUVB2TlliYkRNZXY1UldYXzRlT0FCcUptRlBFSWgtenp4Q1lWS1pLUDJCU1c1UEJrQmpjbjNSaHc0OWRKYw?oc=5"
+        "label": "Air Cargo News",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTkNKX3dkNmtIU0ttSFlIUWJjdnJIdVdpT2pMeWN6T1ZBdTBGWVhNMzFSYXJnQkdLVDZjb2dILTFTVVRsY19qRWRtYlQ1MHlBZ1A4bjZVUjhuNG9qZUlrVTBLNXdhYTAwb0FlZVhGOTgybllHcnQzNzd5aFhKb3Y2MTQ2UHZPd3JWZWxKblFQY0x3TVpwMUhkZ3NUSV9DNE1OeDFGb2dKeEVaZw?oc=5"
       }
     ]
   },
   {
-    "id": "fw_auto_003",
+    "id": "fw_auto_004",
+    "title": "World Container Index – 8 October 2026",
+    "date": "2026-10-08",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "World Container Index – 8 October 2026  Daily Cargo News",
+    "source": "Daily Cargo News",
+    "links": [
+      {
+        "label": "Daily Cargo News",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xS3lzOUtBWWZhSW9SdzQyOUt5QzdGVGotakl5anRRSXVCTTMtYWsyZ2ZDWUJ1WkhEU2xoNHhaQ2pmdU43VzNEd0tCOUlZOTd6NUpiZmxfTjkweXRWbnZ0cEhEcWltMWlPNnYwdGl6eFhqZ1FhdVE?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_005",
+    "title": "Container freight rates: Europe down, United States up",
+    "date": "2026-09-30",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Container freight rates: Europe down, United States up  AdriaPorts",
+    "source": "AdriaPorts",
+    "links": [
+      {
+        "label": "AdriaPorts",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQekwyNWdFUWRrQ245Wl9jQTk2WUJZWUtXSzkxVDZ4bU9qX2MtS0Nib1ltbDY0VG9CRko2cVl3U2xqU1BLWFh2R21sZkNIVU85MWphS01BdXpnaU9aV3pYbmZpRlFvTFN3RkxOeUhmUmluOTVNaktveE53SHVUbTItMi1DV2I0VzRCLUJlbS00MWlaMVI5YmtLbTl4aw?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_006",
+    "title": "Amazon FBA Singapore: The complete guide for e-commerce sellers",
+    "date": "2026-09-30",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Amazon FBA Singapore: The complete guide for e-commerce sellers  WorldFirst",
+    "source": "WorldFirst",
+    "links": [
+      {
+        "label": "WorldFirst",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNXFfYzlFWkFINVlaMTFpSmpwWGRUaEotb3lWUVAyVkhTdURNVjQ2QmRkUVgtT2NxcEpsc2J6ZGwtazUzNTF0bG8ycXRNUy1XVVFhb0RqcWVoUjIxemxHc3dwYWVKOTVuZDYyNlhqazFad3plNlh0dUE5WnV1T3JCOThpcXhQSmNxYlE?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_007",
     "title": "Ocean container shipping rates could test record highs as Iran war fuel spike drives rise, analysts say",
     "date": "2026-09-17",
     "route": "",
@@ -45,77 +105,17 @@
     ]
   },
   {
-    "id": "fw_auto_004",
-    "title": "Drewry index edges lower on decline in trans-Pacific rates",
-    "date": "2026-08-27",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "Drewry index edges lower on decline in trans-Pacific rates  FreightWaves",
-    "source": "FreightWaves",
-    "links": [
-      {
-        "label": "FreightWaves",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcnFmbzNtYjRJekg1NDYyUmNmTmdsOVBrdlZjVDQ0Z1lYYmVGTGp4N2F0V08zR2wxSUs2ZE9oTDZ4OG81YUZSM2NNaTBpX3J4ZEt1OWZmTm9CV1hfRGR4Q0tXY0Y2akljYktyd0pXVlZ6WF9FcFBFYXhpd3JIZlZSa3MxQWdvVEZ4aTRtNm1iZ2sxbnBUUmdJ?oc=5"
-      }
-    ]
-  },
-  {
-    "id": "fw_auto_005",
-    "title": "Congestion playing a bigger role in container rates – August 18, 2026 Update",
-    "date": "2026-08-19",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "Congestion playing a bigger role in container rates – August 18, 2026 Update  Freightos",
-    "source": "Freightos",
-    "links": [
-      {
-        "label": "Freightos",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYjI3ZUFSN0NXbW1ySDJRMWlUSmFUeldSOTZQa0JhQzRVSWtjb2VRc3ktSS1CM2VkUmo3MjZYaFlBOFJxVnBzcDBqUUVyUXJfX1NzQmQxWDR4Uk1tMFE1Sno5UGM5MlluZnI4OHFtSkJXdW1nNkY4YUVXYjBFT0VfalBKYWtDVUJvTnctY09jTUpaeW5WU2tqc2dLbTcyeVJUTm5rQmRqSjcyeUIySUtDazNybFdVTkRmTGc?oc=5"
-      }
-    ]
-  },
-  {
-    "id": "fw_auto_006",
-    "title": "Drewry WCI rises for second week as Transpacific rates climb",
-    "date": "2026-08-15",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "Drewry WCI rises for second week as Transpacific rates climb  Container News",
-    "source": "Container News",
-    "links": [
-      {
-        "label": "Container News",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTEdPbkllZWp2dG9qeXNaLXNTb2lmNzUyd1VSbkRPZ2FBZml6b1lsQzNsY1Z0d3JiSVNaNG9qclpyNDhYZno4MHlWYmd5TXI1VVZxdTdwa2pyanoxV1ItZXJrYXRMV3hWOVEyQkV6MUwtel94MTlpa2dYc29UQ2tjVC1TVU40ZzdtVEN2c1E4WGpIdw?oc=5"
-      }
-    ]
-  },
-  {
-    "id": "fw_auto_007",
-    "title": "Shipping From China to Africa: A Complete Guide for Online Sellers [2026]",
-    "date": "2026-08-07",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "Shipping From China to Africa: A Complete Guide for Online Sellers [2026]  WorldFirst",
-    "source": "WorldFirst",
-    "links": [
-      {
-        "label": "WorldFirst",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONlJjeFV2bTM4MlpyQ2pIZGowQVNJN3p4WjhGODQ0bzJldDFwb1ItcUs1aDQ3WGliU1pvemZ5dzJFSm1Kb293YkswS05abnNmUUNhUGUxWmxtMzAtSTZOMGstWXI5cW9XWWRBNC0yaUhJQWFmQnpXbXpXMzYtcnpxVWZ5LW5QaWRNSnFRa1dn?oc=5"
-      }
-    ]
-  },
-  {
     "id": "fw_auto_008",
-    "title": "Freight rate update for July 29th – July 29, 2026 Update",
-    "date": "2026-07-29",
+    "title": "Cheapest Shipping for Samples, Small Batches and Dropshipping (2026)",
+    "date": "2026-09-17",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "Freight rate update for July 29th – July 29, 2026 Update  Freightos",
-    "source": "Freightos",
+    "summary": "Cheapest Shipping for Samples, Small Batches and Dropshipping (2026)  Alibaba.com",
+    "source": "Alibaba.com",
     "links": [
       {
-        "label": "Freightos",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONDRmUGJfYXRxSU4wY2hvdXNLTWItYXh5VVZlZFVDU3Z4S2JVS0l5b2NZd0pvcGRrOG1mNExDbkRIVXNDYkU4Q0RGaVlBSnl6QmJRTFl6LUF2ZTNvdXVJWE5uQWY4Wi1VbHl6US1BNW5JNm1YeC1oNFRRSWNlN0V5a3E5eFc1UHBVNmRYWkVPbzhtZV9Jc1ZKaFNFdDVCSGc?oc=5"
+        "label": "Alibaba.com",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNM1JlaHI3c2t4NjEwQUZWa2FBeHZZN2NrQmNMNngwTnZQb0JXMUZ3Z3J3NXhSdnNSMXhUbnhRcnJodURVUnVTRjV1YWRFcnBKb1YzY2hzblpDV3pWR3J1bmFYSTNpLUhRQ2sxQ3NTejNhQnpGTjN1ZTUwcmdZdzdsWmszSUM2Ul9icnRCUXd4eGtUNFZZcVAwWWJwTjVjRDA5TkhmVVBmQjBENjBCZG52dkgwUUtLMVU?oc=5"
       }
     ]
   }
