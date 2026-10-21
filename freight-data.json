@@ -1,8 +1,23 @@
 [
   {
     "id": "fw_auto_001",
+    "title": "Freightos Weekly Update: Red Sea container traffic set for full return in Q1",
+    "date": "2026-10-21",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Freightos Weekly Update: Red Sea container traffic set for full return in Q1  Container News",
+    "source": "Container News",
+    "links": [
+      {
+        "label": "Container News",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUkxuSDYyendFUGFuM3VKc05feDB2Nk9pdHZYU2FFTUowRjFZa0s5QUc2c2MyUDhOXzZWaEZSQnl0dDZvNjFyS3JNM3l6QVI3d0NQUmNHNmFNZzZueFFYZUZReGRqLTBLNmJyYVkydGdNZW9WQ3RaOGcyVW94bnRMdzRtTmowbTVFOGxxNC1tYmVVVmFVMGpiQTlHdHJZbHFXS3Y0TDRn?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_002",
     "title": "Drewry WCI rebounds 3.1% as Asia-Europe freight rates rise",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "route": "",
     "mode": "Freightos周报",
     "summary": "Drewry WCI rebounds 3.1% as Asia-Europe freight rates rise  Fibre2Fashion",
@@ -10,22 +25,7 @@
     "links": [
       {
         "label": "Fibre2Fashion",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYzNkd016LXlqZ3RzQTNsYUc2a0F3Q05fVzdnQk04MzBBOElFcm1DQWVTa3BKY3JQS3Z2SmU2M0FubGtEMWE3ckZaYkt5OTNGcXVfTHlfZVB3alNKQ1ktUHZHbi1PbWplSG9mbU0xM2s1ajdpOExhcHhJaEJfVUtEcEtZbW52VWRfcXpsVVhCMk5iMm9fTlQtNjhIelh0TTBQNEptWmk4Y25yZmNjWHJTMVFNbVV0ams1ZUtnZkFhaTdSX01XN3o4?oc=5"
-      }
-    ]
-  },
-  {
-    "id": "fw_auto_002",
-    "title": "Attacks disrupt Saudi air cargo; China-Europe air rates slump – October 13, 2026 Update",
-    "date": "2026-10-14",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "Attacks disrupt Saudi air cargo; China-Europe air rates slump – October 13, 2026 Update  Freightos",
-    "source": "Freightos",
-    "links": [
-      {
-        "label": "Freightos",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZEk2emdoMFNObHlhcUx1WUhIVzlkUmpydXJDbUFaellZMjZrZWtQUnJrelZGQjZfTUJXenVsVC1EakYxZHdsSzZhQ2xGVUpaaUZhd1ZEX3E1T1E3a19OOHJZamIwRHhhb0x4Qlk3QVBoaVlZSjIydFVKVlByM1V6a3BBSDBWUXpWcWhjc2hfaVBUSGlaMEFwbkVycm5KWXZyWGV2X3ZTczZ0SFNjMnJHODEtcUFyY1ZoUU9HS2xsNzg5OHNzTzgw?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOY25jNmxreVRxWkl1di1GX1RFeV94UFRIN2c0WGtjQlNUakxuN2tRV0tpdnphanhCZXdxWG9hZ3RlRHlwTXo5LUxJNXN3QkpxYUQ1N0liVjdRWGd1SHFvUTZySk02ODVGeDdNMUVTV055WVpyblZtODc0NDdTZ052bjU1blByX216a21tbGIxTVZLSGtGVzdydU9fOXB0djhSYTlndFl0cF9KbXY4Sk9lVjB4bkpkSUdvYVJiR1BQX2pPSVU4anFRUndyOFEtRjJ2Q2tnU1J3?oc=5"
       }
     ]
   },
@@ -46,6 +46,21 @@
   },
   {
     "id": "fw_auto_004",
+    "title": "Premier Alliance joins Red Sea return – October 6, 2026 Update",
+    "date": "2026-10-06",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Premier Alliance joins Red Sea return – October 6, 2026 Update  Freightos",
+    "source": "Freightos",
+    "links": [
+      {
+        "label": "Freightos",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONTk1ak1fTXlhLWNpdDR0LW9OOUhLSVk4RmswMXU0WnkyR29SSVZTLS10Z1ZUd1JVUVA0TVRtY0Ywekx5ZU9JVjFYalpDc3JpNEotRXZPNWh4cGpFUTZlYnRWaHVGZkZ3dktDSkdBV3VhMXRzRUgtVU9TcEVic3FDajEyMkZ5cUJ4akl6bGd4TlZMS1ZldGpHZzIzNlRVYXlGQktBWkdJSQ?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_005",
     "title": "Amazon FBA Singapore: The complete guide for e-commerce sellers",
     "date": "2026-09-30",
     "route": "",
@@ -60,7 +75,7 @@
     ]
   },
   {
-    "id": "fw_auto_005",
+    "id": "fw_auto_006",
     "title": "Ocean container shipping rates could test record highs as Iran war fuel spike drives rise, analysts say",
     "date": "2026-09-17",
     "route": "",
@@ -75,7 +90,7 @@
     ]
   },
   {
-    "id": "fw_auto_006",
+    "id": "fw_auto_007",
     "title": "Drewry index edges lower on decline in trans-Pacific rates",
     "date": "2026-08-27",
     "route": "",
@@ -86,21 +101,6 @@
       {
         "label": "FreightWaves",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcnFmbzNtYjRJekg1NDYyUmNmTmdsOVBrdlZjVDQ0Z1lYYmVGTGp4N2F0V08zR2wxSUs2ZE9oTDZ4OG81YUZSM2NNaTBpX3J4ZEt1OWZmTm9CV1hfRGR4Q0tXY0Y2akljYktyd0pXVlZ6WF9FcFBFYXhpd3JIZlZSa3MxQWdvVEZ4aTRtNm1iZ2sxbnBUUmdJ?oc=5"
-      }
-    ]
-  },
-  {
-    "id": "fw_auto_007",
-    "title": "Congestion playing a bigger role in container rates – August 18, 2026 Update",
-    "date": "2026-08-19",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "Congestion playing a bigger role in container rates – August 18, 2026 Update  Freightos",
-    "source": "Freightos",
-    "links": [
-      {
-        "label": "Freightos",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYjI3ZUFSN0NXbW1ySDJRMWlUSmFUeldSOTZQa0JhQzRVSWtjb2VRc3ktSS1CM2VkUmo3MjZYaFlBOFJxVnBzcDBqUUVyUXJfX1NzQmQxWDR4Uk1tMFE1Sno5UGM5MlluZnI4OHFtSkJXdW1nNkY4YUVXYjBFT0VfalBKYWtDVUJvTnctY09jTUpaeW5WU2tqc2dLbTcyeVJUTm5rQmRqSjcyeUIySUtDazNybFdVTkRmTGc?oc=5"
       }
     ]
   },
