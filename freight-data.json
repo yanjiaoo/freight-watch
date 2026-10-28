@@ -1,6 +1,21 @@
 [
   {
     "id": "fw_auto_001",
+    "title": "Oil trade’s shipping bottleneck threatens a fresh wave of inflation",
+    "date": "2026-10-27",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Oil trade’s shipping bottleneck threatens a fresh wave of inflation  AzerNews",
+    "source": "AzerNews",
+    "links": [
+      {
+        "label": "AzerNews",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9RRE9UODZoRzVLalJadDd4c015bXJPNGJlcVdKRG9SX2dlRzY0V05CYjg1LUJZU1RtblVHbWMzZUUzZHFPc00yRXV5dGVwY3BycDItXzI3TQ?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_002",
     "title": "Drewry WCI gains 2.2% amid higher Asia-Europe shipping rates",
     "date": "2026-10-23",
     "route": "",
@@ -15,37 +30,7 @@
     ]
   },
   {
-    "id": "fw_auto_002",
-    "title": "News Carriers opt for more blanked sailings to bolster freight rates",
-    "date": "2026-10-23",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "News Carriers opt for more blanked sailings to bolster freight rates  The Loadstar",
-    "source": "The Loadstar",
-    "links": [
-      {
-        "label": "The Loadstar",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMlRPbzc5YXdCRFpFTWhxSWc0eE5XSTdzSTZZVVQ3X1N3c0xPd0VMcUkzMDh2N0dtQ3lqTGNrQWRNZ1ZXZmVZdTdMLW5nWVRmZW1TTWVxclI3dmJ6Yk1aTXNZS1hPcDJNWkZOTHFRNkJjcGxkbExNLWlwWEZYaHhqM3BobThBNzVybHRfMGRDLUtXZw?oc=5"
-      }
-    ]
-  },
-  {
     "id": "fw_auto_003",
-    "title": "World Container Index – 22 October 2026",
-    "date": "2026-10-23",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "World Container Index – 22 October 2026  Daily Cargo News",
-    "source": "Daily Cargo News",
-    "links": [
-      {
-        "label": "Daily Cargo News",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBScjZjbnlMajd1T1ZGWkdwbkpRRFlfcXRiZ1RibXdYMHhkeXZkME9YY1BWUlZWaElFRDhOcHpWX3M5SnZDSW9OS1lBeldKd3NZN21JSGU0Y3RtYzlzdmo1am9iNDB0U0xka3dNT0E2SzJzdVdrVkpR0gGHAUFVX3lxTFBwTW5vNXJCTEtkcGt6T0J6aERjbk9VdzNGT09KQTF1cG9oM1QweVk5UG53aXZ3WHZQUWVRbDlLa2NYTWdtTmlmZFMzNnlReFROSUJ1d19aVTdUeEhoem9MOUJENndweUxKaWtYaWpIMEZOY0xlUlJRaFNGM3JEVjNlak4xSmpEMA?oc=5"
-      }
-    ]
-  },
-  {
-    "id": "fw_auto_004",
     "title": "AMZ Prep Releases 2026 Peak Season Outlook on E-Commerce Fulfillment and Shipping Constraints",
     "date": "2026-10-22",
     "route": "",
@@ -60,7 +45,7 @@
     ]
   },
   {
-    "id": "fw_auto_005",
+    "id": "fw_auto_004",
     "title": "Red Sea container traffic set for full return in Q1 – October 20, 2026 Update",
     "date": "2026-10-21",
     "route": "",
@@ -75,22 +60,7 @@
     ]
   },
   {
-    "id": "fw_auto_006",
-    "title": "Shipping from China to Australia [Updated October 2026 ]",
-    "date": "2026-10-21",
-    "route": "",
-    "mode": "Freightos周报",
-    "summary": "Shipping from China to Australia [Updated October 2026 ]  Freightos",
-    "source": "Freightos",
-    "links": [
-      {
-        "label": "Freightos",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWTdOQWV2cHM1aXRpQU1UUkFuX0pmaEE4QkdDLUFUSUt6RFdpNmZqZUVXNEZ6aXJ0c2xQQlB5eHNaNWRFZTh4QVcwR2JaNTh6d3FOVUJONTlWenJFTHFyUlBHSlZvWm41eEZ2UUtmV2lCTExWVndJcmw1bGJVZWNrYQ?oc=5"
-      }
-    ]
-  },
-  {
-    "id": "fw_auto_007",
+    "id": "fw_auto_005",
     "title": "Premier Alliance joins Red Sea return – October 6, 2026 Update",
     "date": "2026-10-06",
     "route": "",
@@ -105,17 +75,47 @@
     ]
   },
   {
-    "id": "fw_auto_008",
-    "title": "Amazon FBA Singapore: The complete guide for e-commerce sellers",
-    "date": "2026-09-30",
+    "id": "fw_auto_006",
+    "title": "Ocean container shipping rates could test record highs as Iran war fuel spike drives rise, analysts say",
+    "date": "2026-09-17",
     "route": "",
     "mode": "Freightos周报",
-    "summary": "Amazon FBA Singapore: The complete guide for e-commerce sellers  WorldFirst",
-    "source": "WorldFirst",
+    "summary": "Ocean container shipping rates could test record highs as Iran war fuel spike drives rise, analysts say  Reuters",
+    "source": "Reuters",
     "links": [
       {
-        "label": "WorldFirst",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNXFfYzlFWkFINVlaMTFpSmpwWGRUaEotb3lWUVAyVkhTdURNVjQ2QmRkUVgtT2NxcEpsc2J6ZGwtazUzNTF0bG8ycXRNUy1XVVFhb0RqcWVoUjIxemxHc3dwYWVKOTVuZDYyNlhqazFad3plNlh0dUE5WnV1T3JCOThpcXhQSmNxYlE?oc=5"
+        "label": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONGltbnJEV1l0NXJDNFMxbFBtMUpYQkJWSGFlU2FRaHpNZ0xzNHhDSVJDbWt2Zy13YUNwZEJySUZUWHFEQi1XczZHWlI2dmZNMHZUTHVrR2tJUWpIanZtUFlXVTJEaXFIZTdGWDdQandreldIUm1URGRFZGxuVXhYX1FRcm8teGdSRmpGR1I4QnJ4SGJ6bF9UaGFGdXRadGZlY3o0TDItMm1ac0M4RTZsY2dkY3BQUUgzbzdycktRbmpjTDJy?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_007",
+    "title": "Drewry index edges lower on decline in trans-Pacific rates",
+    "date": "2026-08-27",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Drewry index edges lower on decline in trans-Pacific rates  FreightWaves",
+    "source": "FreightWaves",
+    "links": [
+      {
+        "label": "FreightWaves",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcnFmbzNtYjRJekg1NDYyUmNmTmdsOVBrdlZjVDQ0Z1lYYmVGTGp4N2F0V08zR2wxSUs2ZE9oTDZ4OG81YUZSM2NNaTBpX3J4ZEt1OWZmTm9CV1hfRGR4Q0tXY0Y2akljYktyd0pXVlZ6WF9FcFBFYXhpd3JIZlZSa3MxQWdvVEZ4aTRtNm1iZ2sxbnBUUmdJ?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "fw_auto_008",
+    "title": "Congestion playing a bigger role in container rates – August 18, 2026 Update",
+    "date": "2026-08-19",
+    "route": "",
+    "mode": "Freightos周报",
+    "summary": "Congestion playing a bigger role in container rates – August 18, 2026 Update  Freightos",
+    "source": "Freightos",
+    "links": [
+      {
+        "label": "Freightos",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYjI3ZUFSN0NXbW1ySDJRMWlUSmFUeldSOTZQa0JhQzRVSWtjb2VRc3ktSS1CM2VkUmo3MjZYaFlBOFJxVnBzcDBqUUVyUXJfX1NzQmQxWDR4Uk1tMFE1Sno5UGM5MlluZnI4OHFtSkJXdW1nNkY4YUVXYjBFT0VfalBKYWtDVUJvTnctY09jTUpaeW5WU2tqc2dLbTcyeVJUTm5rQmRqSjcyeUIySUtDazNybFdVTkRmTGc?oc=5"
       }
     ]
   }
